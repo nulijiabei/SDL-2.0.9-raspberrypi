@@ -1,7 +1,8 @@
-build/SDL_rotate.lo: /root/SDL2-2.0.9/src/render/software/SDL_rotate.c \
- /root/SDL2-2.0.9/src/render/software/../../SDL_internal.h \
- /root/SDL2-2.0.9/src/render/software/../../dynapi/SDL_dynapi.h \
- /root/SDL2-2.0.9/src/render/software/../../dynapi/SDL_dynapi_overrides.h \
+build/SDL_rotate.lo: \
+ /root/SDL-2.0.9-raspberrypi/src/render/software/SDL_rotate.c \
+ /root/SDL-2.0.9-raspberrypi/src/render/software/../../SDL_internal.h \
+ /root/SDL-2.0.9-raspberrypi/src/render/software/../../dynapi/SDL_dynapi.h \
+ /root/SDL-2.0.9-raspberrypi/src/render/software/../../dynapi/SDL_dynapi_overrides.h \
  include/SDL_config.h include/SDL_platform.h include/begin_code.h \
  include/close_code.h include/SDL.h include/SDL_main.h \
  include/SDL_stdinc.h include/SDL_config.h include/SDL_assert.h \
@@ -17,4 +18,5 @@ build/SDL_rotate.lo: /root/SDL2-2.0.9/src/render/software/SDL_rotate.c \
  include/SDL_loadso.h include/SDL_log.h include/SDL_messagebox.h \
  include/SDL_power.h include/SDL_render.h include/SDL_sensor.h \
  include/SDL_shape.h include/SDL_system.h include/SDL_timer.h \
- include/SDL_version.h /root/SDL2-2.0.9/src/render/software/SDL_rotate.h
+ include/SDL_version.h \
+ /root/SDL-2.0.9-raspberrypi/src/render/software/SDL_rotate.h

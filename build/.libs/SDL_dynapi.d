@@ -1,6 +1,6 @@
-build/SDL_dynapi.lo: /root/SDL2-2.0.9/src/dynapi/SDL_dynapi.c \
+build/SDL_dynapi.lo: /root/SDL-2.0.9-raspberrypi/src/dynapi/SDL_dynapi.c \
  include/SDL_config.h include/SDL_platform.h include/begin_code.h \
- include/close_code.h /root/SDL2-2.0.9/src/dynapi/SDL_dynapi.h \
+ include/close_code.h /root/SDL-2.0.9-raspberrypi/src/dynapi/SDL_dynapi.h \
  include/SDL.h include/SDL_main.h include/SDL_stdinc.h \
  include/SDL_config.h include/SDL_assert.h include/SDL_atomic.h \
  include/SDL_audio.h include/SDL_error.h include/SDL_endian.h \
@@ -16,4 +16,4 @@ build/SDL_dynapi.lo: /root/SDL2-2.0.9/src/dynapi/SDL_dynapi.c \
  include/SDL_render.h include/SDL_sensor.h include/SDL_shape.h \
  include/SDL_system.h include/SDL_timer.h include/SDL_version.h \
  include/SDL_syswm.h include/SDL_vulkan.h \
- /root/SDL2-2.0.9/src/dynapi/SDL_dynapi_procs.h
+ /root/SDL-2.0.9-raspberrypi/src/dynapi/SDL_dynapi_procs.h

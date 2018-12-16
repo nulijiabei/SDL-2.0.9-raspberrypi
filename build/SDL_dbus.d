@@ -1,9 +1,10 @@
-build/SDL_dbus.lo: /root/SDL2-2.0.9/src/core/linux/SDL_dbus.c \
- /root/SDL2-2.0.9/src/core/linux/../../SDL_internal.h \
- /root/SDL2-2.0.9/src/core/linux/../../dynapi/SDL_dynapi.h \
- /root/SDL2-2.0.9/src/core/linux/../../dynapi/SDL_dynapi_overrides.h \
+build/SDL_dbus.lo: /root/SDL-2.0.9-raspberrypi/src/core/linux/SDL_dbus.c \
+ /root/SDL-2.0.9-raspberrypi/src/core/linux/../../SDL_internal.h \
+ /root/SDL-2.0.9-raspberrypi/src/core/linux/../../dynapi/SDL_dynapi.h \
+ /root/SDL-2.0.9-raspberrypi/src/core/linux/../../dynapi/SDL_dynapi_overrides.h \
  include/SDL_config.h include/SDL_platform.h include/begin_code.h \
- include/close_code.h /root/SDL2-2.0.9/src/core/linux/SDL_dbus.h \
+ include/close_code.h \
+ /root/SDL-2.0.9-raspberrypi/src/core/linux/SDL_dbus.h \
  include/SDL_stdinc.h include/SDL_config.h \
  /usr/include/dbus-1.0/dbus/dbus.h \
  /usr/lib/arm-linux-gnueabihf/dbus-1.0/include/dbus/dbus-arch-deps.h \

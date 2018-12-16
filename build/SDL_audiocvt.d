@@ -1,7 +1,8 @@
-build/SDL_audiocvt.lo: /root/SDL2-2.0.9/src/audio/SDL_audiocvt.c \
- /root/SDL2-2.0.9/src/audio/../SDL_internal.h \
- /root/SDL2-2.0.9/src/audio/../dynapi/SDL_dynapi.h \
- /root/SDL2-2.0.9/src/audio/../dynapi/SDL_dynapi_overrides.h \
+build/SDL_audiocvt.lo: \
+ /root/SDL-2.0.9-raspberrypi/src/audio/SDL_audiocvt.c \
+ /root/SDL-2.0.9-raspberrypi/src/audio/../SDL_internal.h \
+ /root/SDL-2.0.9-raspberrypi/src/audio/../dynapi/SDL_dynapi.h \
+ /root/SDL-2.0.9-raspberrypi/src/audio/../dynapi/SDL_dynapi_overrides.h \
  include/SDL_config.h include/SDL_platform.h include/begin_code.h \
  include/close_code.h include/SDL.h include/SDL_main.h \
  include/SDL_stdinc.h include/SDL_config.h include/SDL_assert.h \
@@ -18,6 +19,7 @@ build/SDL_audiocvt.lo: /root/SDL2-2.0.9/src/audio/SDL_audiocvt.c \
  include/SDL_power.h include/SDL_render.h include/SDL_sensor.h \
  include/SDL_shape.h include/SDL_system.h include/SDL_timer.h \
  include/SDL_version.h include/SDL_audio.h \
- /root/SDL2-2.0.9/src/audio/SDL_audio_c.h include/SDL_loadso.h \
- include/SDL_assert.h /root/SDL2-2.0.9/src/audio/../SDL_dataqueue.h \
+ /root/SDL-2.0.9-raspberrypi/src/audio/SDL_audio_c.h include/SDL_loadso.h \
+ include/SDL_assert.h \
+ /root/SDL-2.0.9-raspberrypi/src/audio/../SDL_dataqueue.h \
  include/SDL_cpuinfo.h

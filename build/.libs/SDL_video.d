@@ -1,7 +1,7 @@
-build/SDL_video.lo: /root/SDL2-2.0.9/src/video/SDL_video.c \
- /root/SDL2-2.0.9/src/video/../SDL_internal.h \
- /root/SDL2-2.0.9/src/video/../dynapi/SDL_dynapi.h \
- /root/SDL2-2.0.9/src/video/../dynapi/SDL_dynapi_overrides.h \
+build/SDL_video.lo: /root/SDL-2.0.9-raspberrypi/src/video/SDL_video.c \
+ /root/SDL-2.0.9-raspberrypi/src/video/../SDL_internal.h \
+ /root/SDL-2.0.9-raspberrypi/src/video/../dynapi/SDL_dynapi.h \
+ /root/SDL-2.0.9-raspberrypi/src/video/../dynapi/SDL_dynapi_overrides.h \
  include/SDL_config.h include/SDL_platform.h include/begin_code.h \
  include/close_code.h include/SDL.h include/SDL_main.h \
  include/SDL_stdinc.h include/SDL_config.h include/SDL_assert.h \
@@ -18,31 +18,34 @@ build/SDL_video.lo: /root/SDL2-2.0.9/src/video/SDL_video.c \
  include/SDL_power.h include/SDL_render.h include/SDL_sensor.h \
  include/SDL_shape.h include/SDL_system.h include/SDL_timer.h \
  include/SDL_version.h include/SDL_video.h \
- /root/SDL2-2.0.9/src/video/SDL_sysvideo.h include/SDL_messagebox.h \
- include/SDL_shape.h include/SDL_thread.h \
- /root/SDL2-2.0.9/src/video/SDL_vulkan_internal.h include/SDL_stdinc.h \
- /root/SDL2-2.0.9/src/video/./khronos/vulkan/vulkan.h \
- /root/SDL2-2.0.9/src/video/./khronos/vulkan/./vk_platform.h \
- include/SDL_vulkan.h /root/SDL2-2.0.9/src/video/SDL_blit.h \
+ /root/SDL-2.0.9-raspberrypi/src/video/SDL_sysvideo.h \
+ include/SDL_messagebox.h include/SDL_shape.h include/SDL_thread.h \
+ /root/SDL-2.0.9-raspberrypi/src/video/SDL_vulkan_internal.h \
+ include/SDL_stdinc.h \
+ /root/SDL-2.0.9-raspberrypi/src/video/./khronos/vulkan/vulkan.h \
+ /root/SDL-2.0.9-raspberrypi/src/video/./khronos/vulkan/./vk_platform.h \
+ include/SDL_vulkan.h /root/SDL-2.0.9-raspberrypi/src/video/SDL_blit.h \
  include/SDL_cpuinfo.h include/SDL_endian.h include/SDL_surface.h \
- /root/SDL2-2.0.9/src/video/SDL_pixels_c.h \
- /root/SDL2-2.0.9/src/video/SDL_rect_c.h \
- /root/SDL2-2.0.9/src/video/../events/SDL_events_c.h \
- /root/SDL2-2.0.9/src/video/../events/../SDL_internal.h \
+ /root/SDL-2.0.9-raspberrypi/src/video/SDL_pixels_c.h \
+ /root/SDL-2.0.9-raspberrypi/src/video/SDL_rect_c.h \
+ /root/SDL-2.0.9-raspberrypi/src/video/../events/SDL_events_c.h \
+ /root/SDL-2.0.9-raspberrypi/src/video/../events/../SDL_internal.h \
  include/SDL_events.h \
- /root/SDL2-2.0.9/src/video/../events/../video/SDL_sysvideo.h \
- /root/SDL2-2.0.9/src/video/../events/../video/../SDL_internal.h \
- /root/SDL2-2.0.9/src/video/../events/SDL_clipboardevents_c.h \
- /root/SDL2-2.0.9/src/video/../events/SDL_displayevents_c.h \
- /root/SDL2-2.0.9/src/video/../events/SDL_dropevents_c.h \
- /root/SDL2-2.0.9/src/video/../events/SDL_gesture_c.h \
- /root/SDL2-2.0.9/src/video/../events/SDL_keyboard_c.h \
- include/SDL_keycode.h /root/SDL2-2.0.9/src/video/../events/SDL_mouse_c.h \
- include/SDL_mouse.h /root/SDL2-2.0.9/src/video/../events/SDL_touch_c.h \
- /root/SDL2-2.0.9/src/video/../events/../../include/SDL_touch.h \
- /root/SDL2-2.0.9/src/video/../events/SDL_windowevents_c.h \
- /root/SDL2-2.0.9/src/video/../timer/SDL_timer_c.h \
- /root/SDL2-2.0.9/src/video/../timer/../SDL_internal.h \
+ /root/SDL-2.0.9-raspberrypi/src/video/../events/../video/SDL_sysvideo.h \
+ /root/SDL-2.0.9-raspberrypi/src/video/../events/../video/../SDL_internal.h \
+ /root/SDL-2.0.9-raspberrypi/src/video/../events/SDL_clipboardevents_c.h \
+ /root/SDL-2.0.9-raspberrypi/src/video/../events/SDL_displayevents_c.h \
+ /root/SDL-2.0.9-raspberrypi/src/video/../events/SDL_dropevents_c.h \
+ /root/SDL-2.0.9-raspberrypi/src/video/../events/SDL_gesture_c.h \
+ /root/SDL-2.0.9-raspberrypi/src/video/../events/SDL_keyboard_c.h \
+ include/SDL_keycode.h \
+ /root/SDL-2.0.9-raspberrypi/src/video/../events/SDL_mouse_c.h \
+ include/SDL_mouse.h \
+ /root/SDL-2.0.9-raspberrypi/src/video/../events/SDL_touch_c.h \
+ /root/SDL-2.0.9-raspberrypi/src/video/../events/../../include/SDL_touch.h \
+ /root/SDL-2.0.9-raspberrypi/src/video/../events/SDL_windowevents_c.h \
+ /root/SDL-2.0.9-raspberrypi/src/video/../timer/SDL_timer_c.h \
+ /root/SDL-2.0.9-raspberrypi/src/video/../timer/../SDL_internal.h \
  include/SDL_timer.h include/SDL_syswm.h include/SDL_opengles.h \
  /opt/vc/include/GLES/gl.h /opt/vc/include/GLES/glplatform.h \
  /opt/vc/include/GLES/../KHR/khrplatform.h /opt/vc/include/GLES/glext.h \

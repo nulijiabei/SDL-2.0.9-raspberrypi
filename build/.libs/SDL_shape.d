@@ -1,7 +1,7 @@
-build/SDL_shape.lo: /root/SDL2-2.0.9/src/video/SDL_shape.c \
- /root/SDL2-2.0.9/src/video/../SDL_internal.h \
- /root/SDL2-2.0.9/src/video/../dynapi/SDL_dynapi.h \
- /root/SDL2-2.0.9/src/video/../dynapi/SDL_dynapi_overrides.h \
+build/SDL_shape.lo: /root/SDL-2.0.9-raspberrypi/src/video/SDL_shape.c \
+ /root/SDL-2.0.9-raspberrypi/src/video/../SDL_internal.h \
+ /root/SDL-2.0.9-raspberrypi/src/video/../dynapi/SDL_dynapi.h \
+ /root/SDL-2.0.9-raspberrypi/src/video/../dynapi/SDL_dynapi_overrides.h \
  include/SDL_config.h include/SDL_platform.h include/begin_code.h \
  include/close_code.h include/SDL.h include/SDL_main.h \
  include/SDL_stdinc.h include/SDL_config.h include/SDL_assert.h \
@@ -18,11 +18,12 @@ build/SDL_shape.lo: /root/SDL2-2.0.9/src/video/SDL_shape.c \
  include/SDL_power.h include/SDL_render.h include/SDL_sensor.h \
  include/SDL_shape.h include/SDL_system.h include/SDL_timer.h \
  include/SDL_version.h include/SDL_assert.h include/SDL_video.h \
- /root/SDL2-2.0.9/src/video/SDL_sysvideo.h include/SDL_messagebox.h \
- include/SDL_shape.h include/SDL_thread.h \
- /root/SDL2-2.0.9/src/video/SDL_vulkan_internal.h include/SDL_stdinc.h \
- /root/SDL2-2.0.9/src/video/./khronos/vulkan/vulkan.h \
- /root/SDL2-2.0.9/src/video/./khronos/vulkan/./vk_platform.h \
+ /root/SDL-2.0.9-raspberrypi/src/video/SDL_sysvideo.h \
+ include/SDL_messagebox.h include/SDL_shape.h include/SDL_thread.h \
+ /root/SDL-2.0.9-raspberrypi/src/video/SDL_vulkan_internal.h \
+ include/SDL_stdinc.h \
+ /root/SDL-2.0.9-raspberrypi/src/video/./khronos/vulkan/vulkan.h \
+ /root/SDL-2.0.9-raspberrypi/src/video/./khronos/vulkan/./vk_platform.h \
  include/SDL_vulkan.h include/SDL_pixels.h include/SDL_surface.h \
- /root/SDL2-2.0.9/src/video/SDL_shape_internals.h include/SDL_rect.h \
- include/begin_code.h include/close_code.h
+ /root/SDL-2.0.9-raspberrypi/src/video/SDL_shape_internals.h \
+ include/SDL_rect.h include/begin_code.h include/close_code.h

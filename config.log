@@ -490,23 +490,23 @@ configure:15580: result: yes
 configure:15632: checking for windres
 configure:15662: result: no
 configure:15795: checking for an ANSI C-conforming const
-configure:15861: gcc -c -g -O2 -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos  conftest.c >&5
+configure:15861: gcc -c -g -O2 -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos  conftest.c >&5
 configure:15861: $? = 0
 configure:15868: result: yes
 configure:15876: checking for inline
-configure:15892: gcc -c -g -O2 -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos  conftest.c >&5
+configure:15892: gcc -c -g -O2 -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos  conftest.c >&5
 configure:15892: $? = 0
 configure:15900: result: inline
 configure:15918: checking for working volatile
-configure:15937: gcc -c -g -O2 -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos  conftest.c >&5
+configure:15937: gcc -c -g -O2 -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos  conftest.c >&5
 configure:15937: $? = 0
 configure:15944: result: yes
 configure:15997: checking for GCC -MMD -MT option
-configure:16015: gcc -c -g -O2 -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos  conftest.c >&5
+configure:16015: gcc -c -g -O2 -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos  conftest.c >&5
 configure:16015: $? = 0
 configure:16021: result: yes
 configure:16029: checking for linker option --no-undefined
-configure:16052: gcc -o conftest -g -O2 -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   -Wl,--no-undefined conftest.c  >&5
+configure:16052: gcc -o conftest -g -O2 -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   -Wl,--no-undefined conftest.c  >&5
 configure:16052: $? = 0
 configure:16063: result: yes
 configure:16078: checking for ANSI C header files
@@ -514,11 +514,11 @@ configure:16182: result: yes
 configure:16193: checking for sys/types.h
 configure:16193: result: yes
 configure:16193: checking stdio.h usability
-configure:16193: gcc -c -g -O2 -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos  conftest.c >&5
+configure:16193: gcc -c -g -O2 -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos  conftest.c >&5
 configure:16193: $? = 0
 configure:16193: result: yes
 configure:16193: checking stdio.h presence
-configure:16193: gcc -E  -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos  conftest.c
+configure:16193: gcc -E  -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos  conftest.c
 configure:16193: $? = 0
 configure:16193: result: yes
 configure:16193: checking for stdio.h
@@ -526,31 +526,31 @@ configure:16193: result: yes
 configure:16193: checking for stdlib.h
 configure:16193: result: yes
 configure:16193: checking stddef.h usability
-configure:16193: gcc -c -g -O2 -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos  conftest.c >&5
+configure:16193: gcc -c -g -O2 -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos  conftest.c >&5
 configure:16193: $? = 0
 configure:16193: result: yes
 configure:16193: checking stddef.h presence
-configure:16193: gcc -E  -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos  conftest.c
+configure:16193: gcc -E  -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos  conftest.c
 configure:16193: $? = 0
 configure:16193: result: yes
 configure:16193: checking for stddef.h
 configure:16193: result: yes
 configure:16193: checking stdarg.h usability
-configure:16193: gcc -c -g -O2 -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos  conftest.c >&5
+configure:16193: gcc -c -g -O2 -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos  conftest.c >&5
 configure:16193: $? = 0
 configure:16193: result: yes
 configure:16193: checking stdarg.h presence
-configure:16193: gcc -E  -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos  conftest.c
+configure:16193: gcc -E  -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos  conftest.c
 configure:16193: $? = 0
 configure:16193: result: yes
 configure:16193: checking for stdarg.h
 configure:16193: result: yes
 configure:16193: checking malloc.h usability
-configure:16193: gcc -c -g -O2 -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos  conftest.c >&5
+configure:16193: gcc -c -g -O2 -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos  conftest.c >&5
 configure:16193: $? = 0
 configure:16193: result: yes
 configure:16193: checking malloc.h presence
-configure:16193: gcc -E  -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos  conftest.c
+configure:16193: gcc -E  -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos  conftest.c
 configure:16193: $? = 0
 configure:16193: result: yes
 configure:16193: checking for malloc.h
@@ -562,11 +562,11 @@ configure:16193: result: yes
 configure:16193: checking for strings.h
 configure:16193: result: yes
 configure:16193: checking wchar.h usability
-configure:16193: gcc -c -g -O2 -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos  conftest.c >&5
+configure:16193: gcc -c -g -O2 -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos  conftest.c >&5
 configure:16193: $? = 0
 configure:16193: result: yes
 configure:16193: checking wchar.h presence
-configure:16193: gcc -E  -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos  conftest.c
+configure:16193: gcc -E  -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos  conftest.c
 configure:16193: $? = 0
 configure:16193: result: yes
 configure:16193: checking for wchar.h
@@ -576,69 +576,69 @@ configure:16193: result: yes
 configure:16193: checking for stdint.h
 configure:16193: result: yes
 configure:16193: checking limits.h usability
-configure:16193: gcc -c -g -O2 -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos  conftest.c >&5
+configure:16193: gcc -c -g -O2 -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos  conftest.c >&5
 configure:16193: $? = 0
 configure:16193: result: yes
 configure:16193: checking limits.h presence
-configure:16193: gcc -E  -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos  conftest.c
+configure:16193: gcc -E  -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos  conftest.c
 configure:16193: $? = 0
 configure:16193: result: yes
 configure:16193: checking for limits.h
 configure:16193: result: yes
 configure:16193: checking ctype.h usability
-configure:16193: gcc -c -g -O2 -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos  conftest.c >&5
+configure:16193: gcc -c -g -O2 -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos  conftest.c >&5
 configure:16193: $? = 0
 configure:16193: result: yes
 configure:16193: checking ctype.h presence
-configure:16193: gcc -E  -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos  conftest.c
+configure:16193: gcc -E  -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos  conftest.c
 configure:16193: $? = 0
 configure:16193: result: yes
 configure:16193: checking for ctype.h
 configure:16193: result: yes
 configure:16193: checking math.h usability
-configure:16193: gcc -c -g -O2 -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos  conftest.c >&5
+configure:16193: gcc -c -g -O2 -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos  conftest.c >&5
 configure:16193: $? = 0
 configure:16193: result: yes
 configure:16193: checking math.h presence
-configure:16193: gcc -E  -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos  conftest.c
+configure:16193: gcc -E  -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos  conftest.c
 configure:16193: $? = 0
 configure:16193: result: yes
 configure:16193: checking for math.h
 configure:16193: result: yes
 configure:16193: checking float.h usability
-configure:16193: gcc -c -g -O2 -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos  conftest.c >&5
+configure:16193: gcc -c -g -O2 -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos  conftest.c >&5
 configure:16193: $? = 0
 configure:16193: result: yes
 configure:16193: checking float.h presence
-configure:16193: gcc -E  -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos  conftest.c
+configure:16193: gcc -E  -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos  conftest.c
 configure:16193: $? = 0
 configure:16193: result: yes
 configure:16193: checking for float.h
 configure:16193: result: yes
 configure:16193: checking iconv.h usability
-configure:16193: gcc -c -g -O2 -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos  conftest.c >&5
+configure:16193: gcc -c -g -O2 -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos  conftest.c >&5
 configure:16193: $? = 0
 configure:16193: result: yes
 configure:16193: checking iconv.h presence
-configure:16193: gcc -E  -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos  conftest.c
+configure:16193: gcc -E  -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos  conftest.c
 configure:16193: $? = 0
 configure:16193: result: yes
 configure:16193: checking for iconv.h
 configure:16193: result: yes
 configure:16193: checking signal.h usability
-configure:16193: gcc -c -g -O2 -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos  conftest.c >&5
+configure:16193: gcc -c -g -O2 -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos  conftest.c >&5
 configure:16193: $? = 0
 configure:16193: result: yes
 configure:16193: checking signal.h presence
-configure:16193: gcc -E  -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos  conftest.c
+configure:16193: gcc -E  -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos  conftest.c
 configure:16193: $? = 0
 configure:16193: result: yes
 configure:16193: checking for signal.h
 configure:16193: result: yes
 configure:16204: checking for size_t
-configure:16204: gcc -c -g -O2 -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos  conftest.c >&5
+configure:16204: gcc -c -g -O2 -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos  conftest.c >&5
 configure:16204: $? = 0
-configure:16204: gcc -c -g -O2 -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos  conftest.c >&5
+configure:16204: gcc -c -g -O2 -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos  conftest.c >&5
 conftest.c: In function 'main':
 conftest.c:77:21: error: expected expression before ')' token
  if (sizeof ((size_t)))
@@ -730,133 +730,133 @@ configure:16204: result: yes
 configure:16216: checking for M_PI in math.h
 configure:16240: result: yes
 configure:16255: checking for working alloca.h
-configure:16272: gcc -o conftest -g -O2 -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   conftest.c  >&5
+configure:16272: gcc -o conftest -g -O2 -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   conftest.c  >&5
 configure:16272: $? = 0
 configure:16280: result: yes
 configure:16288: checking for alloca
-configure:16325: gcc -o conftest -g -O2 -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   conftest.c  >&5
+configure:16325: gcc -o conftest -g -O2 -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   conftest.c  >&5
 configure:16325: $? = 0
 configure:16333: result: yes
 configure:16442: checking for working memcmp
-configure:16485: gcc -o conftest -g -O2 -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   conftest.c  >&5
+configure:16485: gcc -o conftest -g -O2 -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   conftest.c  >&5
 configure:16485: $? = 0
 configure:16485: ./conftest
 configure:16485: $? = 0
 configure:16495: result: yes
 configure:16509: checking for working strtod
-configure:16550: gcc -o conftest -g -O2 -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   conftest.c  >&5
+configure:16550: gcc -o conftest -g -O2 -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   conftest.c  >&5
 configure:16550: $? = 0
 configure:16550: ./conftest
 configure:16550: $? = 0
 configure:16560: result: yes
 configure:16627: checking for mprotect
-configure:16627: gcc -o conftest -g -O2 -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   conftest.c  >&5
+configure:16627: gcc -o conftest -g -O2 -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   conftest.c  >&5
 configure:16627: $? = 0
 configure:16627: result: yes
-configure:16644: gcc -c -g -O2 -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos  conftest.c >&5
+configure:16644: gcc -c -g -O2 -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos  conftest.c >&5
 configure:16644: $? = 0
 configure:16657: checking for malloc
-configure:16657: gcc -o conftest -g -O2 -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   conftest.c  >&5
+configure:16657: gcc -o conftest -g -O2 -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   conftest.c  >&5
 conftest.c:70:6: warning: conflicting types for built-in function 'malloc'
  char malloc ();
       ^~~~~~
 configure:16657: $? = 0
 configure:16657: result: yes
 configure:16657: checking for calloc
-configure:16657: gcc -o conftest -g -O2 -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   conftest.c  >&5
+configure:16657: gcc -o conftest -g -O2 -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   conftest.c  >&5
 conftest.c:71:6: warning: conflicting types for built-in function 'calloc'
  char calloc ();
       ^~~~~~
 configure:16657: $? = 0
 configure:16657: result: yes
 configure:16657: checking for realloc
-configure:16657: gcc -o conftest -g -O2 -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   conftest.c  >&5
+configure:16657: gcc -o conftest -g -O2 -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   conftest.c  >&5
 conftest.c:72:6: warning: conflicting types for built-in function 'realloc'
  char realloc ();
       ^~~~~~~
 configure:16657: $? = 0
 configure:16657: result: yes
 configure:16657: checking for free
-configure:16657: gcc -o conftest -g -O2 -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   conftest.c  >&5
+configure:16657: gcc -o conftest -g -O2 -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   conftest.c  >&5
 conftest.c:73:6: warning: conflicting types for built-in function 'free'
  char free ();
       ^~~~
 configure:16657: $? = 0
 configure:16657: result: yes
 configure:16657: checking for getenv
-configure:16657: gcc -o conftest -g -O2 -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   conftest.c  >&5
+configure:16657: gcc -o conftest -g -O2 -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   conftest.c  >&5
 configure:16657: $? = 0
 configure:16657: result: yes
 configure:16657: checking for setenv
-configure:16657: gcc -o conftest -g -O2 -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   conftest.c  >&5
+configure:16657: gcc -o conftest -g -O2 -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   conftest.c  >&5
 configure:16657: $? = 0
 configure:16657: result: yes
 configure:16657: checking for putenv
-configure:16657: gcc -o conftest -g -O2 -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   conftest.c  >&5
+configure:16657: gcc -o conftest -g -O2 -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   conftest.c  >&5
 configure:16657: $? = 0
 configure:16657: result: yes
 configure:16657: checking for unsetenv
-configure:16657: gcc -o conftest -g -O2 -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   conftest.c  >&5
+configure:16657: gcc -o conftest -g -O2 -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   conftest.c  >&5
 configure:16657: $? = 0
 configure:16657: result: yes
 configure:16657: checking for qsort
-configure:16657: gcc -o conftest -g -O2 -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   conftest.c  >&5
+configure:16657: gcc -o conftest -g -O2 -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   conftest.c  >&5
 configure:16657: $? = 0
 configure:16657: result: yes
 configure:16657: checking for abs
-configure:16657: gcc -o conftest -g -O2 -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   conftest.c  >&5
+configure:16657: gcc -o conftest -g -O2 -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   conftest.c  >&5
 conftest.c:79:6: warning: conflicting types for built-in function 'abs'
  char abs ();
       ^~~
 configure:16657: $? = 0
 configure:16657: result: yes
 configure:16657: checking for bcopy
-configure:16657: gcc -o conftest -g -O2 -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   conftest.c  >&5
+configure:16657: gcc -o conftest -g -O2 -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   conftest.c  >&5
 conftest.c:80:6: warning: conflicting types for built-in function 'bcopy'
  char bcopy ();
       ^~~~~
 configure:16657: $? = 0
 configure:16657: result: yes
 configure:16657: checking for memset
-configure:16657: gcc -o conftest -g -O2 -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   conftest.c  >&5
+configure:16657: gcc -o conftest -g -O2 -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   conftest.c  >&5
 conftest.c:81:6: warning: conflicting types for built-in function 'memset'
  char memset ();
       ^~~~~~
 configure:16657: $? = 0
 configure:16657: result: yes
 configure:16657: checking for memcpy
-configure:16657: gcc -o conftest -g -O2 -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   conftest.c  >&5
+configure:16657: gcc -o conftest -g -O2 -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   conftest.c  >&5
 conftest.c:82:6: warning: conflicting types for built-in function 'memcpy'
  char memcpy ();
       ^~~~~~
 configure:16657: $? = 0
 configure:16657: result: yes
 configure:16657: checking for memmove
-configure:16657: gcc -o conftest -g -O2 -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   conftest.c  >&5
+configure:16657: gcc -o conftest -g -O2 -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   conftest.c  >&5
 conftest.c:83:6: warning: conflicting types for built-in function 'memmove'
  char memmove ();
       ^~~~~~~
 configure:16657: $? = 0
 configure:16657: result: yes
 configure:16657: checking for wcslen
-configure:16657: gcc -o conftest -g -O2 -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   conftest.c  >&5
+configure:16657: gcc -o conftest -g -O2 -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   conftest.c  >&5
 configure:16657: $? = 0
 configure:16657: result: yes
 configure:16657: checking for wcscmp
-configure:16657: gcc -o conftest -g -O2 -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   conftest.c  >&5
+configure:16657: gcc -o conftest -g -O2 -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   conftest.c  >&5
 configure:16657: $? = 0
 configure:16657: result: yes
 configure:16657: checking for strlen
-configure:16657: gcc -o conftest -g -O2 -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   conftest.c  >&5
+configure:16657: gcc -o conftest -g -O2 -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   conftest.c  >&5
 conftest.c:86:6: warning: conflicting types for built-in function 'strlen'
  char strlen ();
       ^~~~~~
 configure:16657: $? = 0
 configure:16657: result: yes
 configure:16657: checking for strlcpy
-configure:16657: gcc -o conftest -g -O2 -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   conftest.c  >&5
-/tmp/cci1V6t8.o: In function `main':
-/root/SDL2-2.0.9/conftest.c:98: undefined reference to `strlcpy'
+configure:16657: gcc -o conftest -g -O2 -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   conftest.c  >&5
+/tmp/cc4nTp1J.o: In function `main':
+/root/SDL-2.0.9-raspberrypi/conftest.c:98: undefined reference to `strlcpy'
 collect2: error: ld returned 1 exit status
 configure:16657: $? = 1
 configure: failed program was:
@@ -963,9 +963,9 @@ configure: failed program was:
 | }
 configure:16657: result: no
 configure:16657: checking for strlcat
-configure:16657: gcc -o conftest -g -O2 -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   conftest.c  >&5
-/tmp/ccawFJy9.o: In function `main':
-/root/SDL2-2.0.9/conftest.c:98: undefined reference to `strlcat'
+configure:16657: gcc -o conftest -g -O2 -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   conftest.c  >&5
+/tmp/ccgfc4yH.o: In function `main':
+/root/SDL-2.0.9-raspberrypi/conftest.c:98: undefined reference to `strlcat'
 collect2: error: ld returned 1 exit status
 configure:16657: $? = 1
 configure: failed program was:
@@ -1072,9 +1072,9 @@ configure: failed program was:
 | }
 configure:16657: result: no
 configure:16657: checking for _strrev
-configure:16657: gcc -o conftest -g -O2 -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   conftest.c  >&5
-/tmp/cc5GJKjo.o: In function `main':
-/root/SDL2-2.0.9/conftest.c:98: undefined reference to `_strrev'
+configure:16657: gcc -o conftest -g -O2 -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   conftest.c  >&5
+/tmp/ccw0K6VV.o: In function `main':
+/root/SDL-2.0.9-raspberrypi/conftest.c:98: undefined reference to `_strrev'
 collect2: error: ld returned 1 exit status
 configure:16657: $? = 1
 configure: failed program was:
@@ -1181,9 +1181,9 @@ configure: failed program was:
 | }
 configure:16657: result: no
 configure:16657: checking for _strupr
-configure:16657: gcc -o conftest -g -O2 -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   conftest.c  >&5
-/tmp/ccwZSk8C.o: In function `main':
-/root/SDL2-2.0.9/conftest.c:98: undefined reference to `_strupr'
+configure:16657: gcc -o conftest -g -O2 -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   conftest.c  >&5
+/tmp/ccqCpw4S.o: In function `main':
+/root/SDL-2.0.9-raspberrypi/conftest.c:98: undefined reference to `_strupr'
 collect2: error: ld returned 1 exit status
 configure:16657: $? = 1
 configure: failed program was:
@@ -1290,9 +1290,9 @@ configure: failed program was:
 | }
 configure:16657: result: no
 configure:16657: checking for _strlwr
-configure:16657: gcc -o conftest -g -O2 -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   conftest.c  >&5
-/tmp/ccEsUgTG.o: In function `main':
-/root/SDL2-2.0.9/conftest.c:98: undefined reference to `_strlwr'
+configure:16657: gcc -o conftest -g -O2 -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   conftest.c  >&5
+/tmp/ccqiih47.o: In function `main':
+/root/SDL-2.0.9-raspberrypi/conftest.c:98: undefined reference to `_strlwr'
 collect2: error: ld returned 1 exit status
 configure:16657: $? = 1
 configure: failed program was:
@@ -1399,30 +1399,30 @@ configure: failed program was:
 | }
 configure:16657: result: no
 configure:16657: checking for strchr
-configure:16657: gcc -o conftest -g -O2 -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   conftest.c  >&5
+configure:16657: gcc -o conftest -g -O2 -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   conftest.c  >&5
 conftest.c:87:6: warning: conflicting types for built-in function 'strchr'
  char strchr ();
       ^~~~~~
 configure:16657: $? = 0
 configure:16657: result: yes
 configure:16657: checking for strrchr
-configure:16657: gcc -o conftest -g -O2 -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   conftest.c  >&5
+configure:16657: gcc -o conftest -g -O2 -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   conftest.c  >&5
 conftest.c:88:6: warning: conflicting types for built-in function 'strrchr'
  char strrchr ();
       ^~~~~~~
 configure:16657: $? = 0
 configure:16657: result: yes
 configure:16657: checking for strstr
-configure:16657: gcc -o conftest -g -O2 -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   conftest.c  >&5
+configure:16657: gcc -o conftest -g -O2 -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   conftest.c  >&5
 conftest.c:89:6: warning: conflicting types for built-in function 'strstr'
  char strstr ();
       ^~~~~~
 configure:16657: $? = 0
 configure:16657: result: yes
 configure:16657: checking for itoa
-configure:16657: gcc -o conftest -g -O2 -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   conftest.c  >&5
-/tmp/ccWKYdiT.o: In function `main':
-/root/SDL2-2.0.9/conftest.c:101: undefined reference to `itoa'
+configure:16657: gcc -o conftest -g -O2 -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   conftest.c  >&5
+/tmp/ccs9pofs.o: In function `main':
+/root/SDL-2.0.9-raspberrypi/conftest.c:101: undefined reference to `itoa'
 collect2: error: ld returned 1 exit status
 configure:16657: $? = 1
 configure: failed program was:
@@ -1532,9 +1532,9 @@ configure: failed program was:
 | }
 configure:16657: result: no
 configure:16657: checking for _ltoa
-configure:16657: gcc -o conftest -g -O2 -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   conftest.c  >&5
-/tmp/ccOcmMYZ.o: In function `main':
-/root/SDL2-2.0.9/conftest.c:101: undefined reference to `_ltoa'
+configure:16657: gcc -o conftest -g -O2 -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   conftest.c  >&5
+/tmp/ccqealMM.o: In function `main':
+/root/SDL-2.0.9-raspberrypi/conftest.c:101: undefined reference to `_ltoa'
 collect2: error: ld returned 1 exit status
 configure:16657: $? = 1
 configure: failed program was:
@@ -1644,9 +1644,9 @@ configure: failed program was:
 | }
 configure:16657: result: no
 configure:16657: checking for _uitoa
-configure:16657: gcc -o conftest -g -O2 -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   conftest.c  >&5
-/tmp/ccaU7SfQ.o: In function `main':
-/root/SDL2-2.0.9/conftest.c:101: undefined reference to `_uitoa'
+configure:16657: gcc -o conftest -g -O2 -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   conftest.c  >&5
+/tmp/ccucv6uN.o: In function `main':
+/root/SDL-2.0.9-raspberrypi/conftest.c:101: undefined reference to `_uitoa'
 collect2: error: ld returned 1 exit status
 configure:16657: $? = 1
 configure: failed program was:
@@ -1756,9 +1756,9 @@ configure: failed program was:
 | }
 configure:16657: result: no
 configure:16657: checking for _ultoa
-configure:16657: gcc -o conftest -g -O2 -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   conftest.c  >&5
-/tmp/ccO2svTW.o: In function `main':
-/root/SDL2-2.0.9/conftest.c:101: undefined reference to `_ultoa'
+configure:16657: gcc -o conftest -g -O2 -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   conftest.c  >&5
+/tmp/ccO6Piv4.o: In function `main':
+/root/SDL-2.0.9-raspberrypi/conftest.c:101: undefined reference to `_ultoa'
 collect2: error: ld returned 1 exit status
 configure:16657: $? = 1
 configure: failed program was:
@@ -1868,17 +1868,17 @@ configure: failed program was:
 | }
 configure:16657: result: no
 configure:16657: checking for strtol
-configure:16657: gcc -o conftest -g -O2 -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   conftest.c  >&5
+configure:16657: gcc -o conftest -g -O2 -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   conftest.c  >&5
 configure:16657: $? = 0
 configure:16657: result: yes
 configure:16657: checking for strtoul
-configure:16657: gcc -o conftest -g -O2 -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   conftest.c  >&5
+configure:16657: gcc -o conftest -g -O2 -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   conftest.c  >&5
 configure:16657: $? = 0
 configure:16657: result: yes
 configure:16657: checking for _i64toa
-configure:16657: gcc -o conftest -g -O2 -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   conftest.c  >&5
-/tmp/ccgemHZG.o: In function `main':
-/root/SDL2-2.0.9/conftest.c:103: undefined reference to `_i64toa'
+configure:16657: gcc -o conftest -g -O2 -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   conftest.c  >&5
+/tmp/ccybIYFf.o: In function `main':
+/root/SDL-2.0.9-raspberrypi/conftest.c:103: undefined reference to `_i64toa'
 collect2: error: ld returned 1 exit status
 configure:16657: $? = 1
 configure: failed program was:
@@ -1990,9 +1990,9 @@ configure: failed program was:
 | }
 configure:16657: result: no
 configure:16657: checking for _ui64toa
-configure:16657: gcc -o conftest -g -O2 -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   conftest.c  >&5
-/tmp/ccaTFBGQ.o: In function `main':
-/root/SDL2-2.0.9/conftest.c:103: undefined reference to `_ui64toa'
+configure:16657: gcc -o conftest -g -O2 -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   conftest.c  >&5
+/tmp/ccpnzUNj.o: In function `main':
+/root/SDL-2.0.9-raspberrypi/conftest.c:103: undefined reference to `_ui64toa'
 collect2: error: ld returned 1 exit status
 configure:16657: $? = 1
 configure: failed program was:
@@ -2104,39 +2104,39 @@ configure: failed program was:
 | }
 configure:16657: result: no
 configure:16657: checking for strtoll
-configure:16657: gcc -o conftest -g -O2 -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   conftest.c  >&5
+configure:16657: gcc -o conftest -g -O2 -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   conftest.c  >&5
 configure:16657: $? = 0
 configure:16657: result: yes
 configure:16657: checking for strtoull
-configure:16657: gcc -o conftest -g -O2 -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   conftest.c  >&5
+configure:16657: gcc -o conftest -g -O2 -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   conftest.c  >&5
 configure:16657: $? = 0
 configure:16657: result: yes
 configure:16657: checking for atoi
-configure:16657: gcc -o conftest -g -O2 -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   conftest.c  >&5
+configure:16657: gcc -o conftest -g -O2 -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   conftest.c  >&5
 configure:16657: $? = 0
 configure:16657: result: yes
 configure:16657: checking for atof
-configure:16657: gcc -o conftest -g -O2 -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   conftest.c  >&5
+configure:16657: gcc -o conftest -g -O2 -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   conftest.c  >&5
 configure:16657: $? = 0
 configure:16657: result: yes
 configure:16657: checking for strcmp
-configure:16657: gcc -o conftest -g -O2 -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   conftest.c  >&5
+configure:16657: gcc -o conftest -g -O2 -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   conftest.c  >&5
 conftest.c:96:6: warning: conflicting types for built-in function 'strcmp'
  char strcmp ();
       ^~~~~~
 configure:16657: $? = 0
 configure:16657: result: yes
 configure:16657: checking for strncmp
-configure:16657: gcc -o conftest -g -O2 -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   conftest.c  >&5
+configure:16657: gcc -o conftest -g -O2 -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   conftest.c  >&5
 conftest.c:97:6: warning: conflicting types for built-in function 'strncmp'
  char strncmp ();
       ^~~~~~~
 configure:16657: $? = 0
 configure:16657: result: yes
 configure:16657: checking for _stricmp
-configure:16657: gcc -o conftest -g -O2 -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   conftest.c  >&5
-/tmp/cccrhJeh.o: In function `main':
-/root/SDL2-2.0.9/conftest.c:109: undefined reference to `_stricmp'
+configure:16657: gcc -o conftest -g -O2 -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   conftest.c  >&5
+/tmp/ccQXesW6.o: In function `main':
+/root/SDL-2.0.9-raspberrypi/conftest.c:109: undefined reference to `_stricmp'
 collect2: error: ld returned 1 exit status
 configure:16657: $? = 1
 configure: failed program was:
@@ -2254,16 +2254,16 @@ configure: failed program was:
 | }
 configure:16657: result: no
 configure:16657: checking for strcasecmp
-configure:16657: gcc -o conftest -g -O2 -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   conftest.c  >&5
+configure:16657: gcc -o conftest -g -O2 -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   conftest.c  >&5
 conftest.c:98:6: warning: conflicting types for built-in function 'strcasecmp'
  char strcasecmp ();
       ^~~~~~~~~~
 configure:16657: $? = 0
 configure:16657: result: yes
 configure:16657: checking for _strnicmp
-configure:16657: gcc -o conftest -g -O2 -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   conftest.c  >&5
-/tmp/ccp4P14l.o: In function `main':
-/root/SDL2-2.0.9/conftest.c:110: undefined reference to `_strnicmp'
+configure:16657: gcc -o conftest -g -O2 -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   conftest.c  >&5
+/tmp/ccyqKIFQ.o: In function `main':
+/root/SDL-2.0.9-raspberrypi/conftest.c:110: undefined reference to `_strnicmp'
 collect2: error: ld returned 1 exit status
 configure:16657: $? = 1
 configure: failed program was:
@@ -2382,58 +2382,58 @@ configure: failed program was:
 | }
 configure:16657: result: no
 configure:16657: checking for strncasecmp
-configure:16657: gcc -o conftest -g -O2 -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   conftest.c  >&5
+configure:16657: gcc -o conftest -g -O2 -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   conftest.c  >&5
 conftest.c:99:6: warning: conflicting types for built-in function 'strncasecmp'
  char strncasecmp ();
       ^~~~~~~~~~~
 configure:16657: $? = 0
 configure:16657: result: yes
 configure:16657: checking for vsscanf
-configure:16657: gcc -o conftest -g -O2 -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   conftest.c  >&5
+configure:16657: gcc -o conftest -g -O2 -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   conftest.c  >&5
 conftest.c:100:6: warning: conflicting types for built-in function 'vsscanf'
  char vsscanf ();
       ^~~~~~~
 configure:16657: $? = 0
 configure:16657: result: yes
 configure:16657: checking for vsnprintf
-configure:16657: gcc -o conftest -g -O2 -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   conftest.c  >&5
+configure:16657: gcc -o conftest -g -O2 -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   conftest.c  >&5
 conftest.c:101:6: warning: conflicting types for built-in function 'vsnprintf'
  char vsnprintf ();
       ^~~~~~~~~
 configure:16657: $? = 0
 configure:16657: result: yes
 configure:16657: checking for fopen64
-configure:16657: gcc -o conftest -g -O2 -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   conftest.c  >&5
+configure:16657: gcc -o conftest -g -O2 -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   conftest.c  >&5
 configure:16657: $? = 0
 configure:16657: result: yes
 configure:16657: checking for fseeko
-configure:16657: gcc -o conftest -g -O2 -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   conftest.c  >&5
+configure:16657: gcc -o conftest -g -O2 -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   conftest.c  >&5
 configure:16657: $? = 0
 configure:16657: result: yes
 configure:16657: checking for fseeko64
-configure:16657: gcc -o conftest -g -O2 -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   conftest.c  >&5
+configure:16657: gcc -o conftest -g -O2 -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   conftest.c  >&5
 configure:16657: $? = 0
 configure:16657: result: yes
 configure:16657: checking for sigaction
-configure:16657: gcc -o conftest -g -O2 -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   conftest.c  >&5
+configure:16657: gcc -o conftest -g -O2 -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   conftest.c  >&5
 configure:16657: $? = 0
 configure:16657: result: yes
 configure:16657: checking for setjmp
-configure:16657: gcc -o conftest -g -O2 -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   conftest.c  >&5
+configure:16657: gcc -o conftest -g -O2 -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   conftest.c  >&5
 configure:16657: $? = 0
 configure:16657: result: yes
 configure:16657: checking for nanosleep
-configure:16657: gcc -o conftest -g -O2 -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   conftest.c  >&5
+configure:16657: gcc -o conftest -g -O2 -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   conftest.c  >&5
 configure:16657: $? = 0
 configure:16657: result: yes
 configure:16657: checking for sysconf
-configure:16657: gcc -o conftest -g -O2 -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   conftest.c  >&5
+configure:16657: gcc -o conftest -g -O2 -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   conftest.c  >&5
 configure:16657: $? = 0
 configure:16657: result: yes
 configure:16657: checking for sysctlbyname
-configure:16657: gcc -o conftest -g -O2 -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   conftest.c  >&5
-/tmp/cc8bGH9I.o: In function `main':
-/root/SDL2-2.0.9/conftest.c:120: undefined reference to `sysctlbyname'
+configure:16657: gcc -o conftest -g -O2 -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   conftest.c  >&5
+/tmp/ccKPBAYC.o: In function `main':
+/root/SDL-2.0.9-raspberrypi/conftest.c:120: undefined reference to `sysctlbyname'
 collect2: error: ld returned 1 exit status
 configure:16657: $? = 1
 configure: failed program was:
@@ -2562,274 +2562,274 @@ configure: failed program was:
 | }
 configure:16657: result: no
 configure:16657: checking for getauxval
-configure:16657: gcc -o conftest -g -O2 -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   conftest.c  >&5
+configure:16657: gcc -o conftest -g -O2 -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   conftest.c  >&5
 configure:16657: $? = 0
 configure:16657: result: yes
 configure:16657: checking for poll
-configure:16657: gcc -o conftest -g -O2 -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   conftest.c  >&5
+configure:16657: gcc -o conftest -g -O2 -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   conftest.c  >&5
 configure:16657: $? = 0
 configure:16657: result: yes
 configure:16667: checking for pow in -lm
-configure:16692: gcc -o conftest -g -O2 -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   conftest.c -lm   >&5
+configure:16692: gcc -o conftest -g -O2 -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   conftest.c -lm   >&5
 conftest.c:95:6: warning: conflicting types for built-in function 'pow'
  char pow ();
       ^~~
 configure:16692: $? = 0
 configure:16701: result: yes
 configure:16710: checking for acos
-configure:16710: gcc -o conftest -g -O2 -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   conftest.c  -lm >&5
+configure:16710: gcc -o conftest -g -O2 -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   conftest.c  -lm >&5
 conftest.c:111:6: warning: conflicting types for built-in function 'acos'
  char acos ();
       ^~~~
 configure:16710: $? = 0
 configure:16710: result: yes
 configure:16710: checking for acosf
-configure:16710: gcc -o conftest -g -O2 -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   conftest.c  -lm >&5
+configure:16710: gcc -o conftest -g -O2 -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   conftest.c  -lm >&5
 conftest.c:112:6: warning: conflicting types for built-in function 'acosf'
  char acosf ();
       ^~~~~
 configure:16710: $? = 0
 configure:16710: result: yes
 configure:16710: checking for asin
-configure:16710: gcc -o conftest -g -O2 -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   conftest.c  -lm >&5
+configure:16710: gcc -o conftest -g -O2 -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   conftest.c  -lm >&5
 conftest.c:113:6: warning: conflicting types for built-in function 'asin'
  char asin ();
       ^~~~
 configure:16710: $? = 0
 configure:16710: result: yes
 configure:16710: checking for asinf
-configure:16710: gcc -o conftest -g -O2 -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   conftest.c  -lm >&5
+configure:16710: gcc -o conftest -g -O2 -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   conftest.c  -lm >&5
 conftest.c:114:6: warning: conflicting types for built-in function 'asinf'
  char asinf ();
       ^~~~~
 configure:16710: $? = 0
 configure:16710: result: yes
 configure:16710: checking for atan
-configure:16710: gcc -o conftest -g -O2 -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   conftest.c  -lm >&5
+configure:16710: gcc -o conftest -g -O2 -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   conftest.c  -lm >&5
 conftest.c:115:6: warning: conflicting types for built-in function 'atan'
  char atan ();
       ^~~~
 configure:16710: $? = 0
 configure:16710: result: yes
 configure:16710: checking for atanf
-configure:16710: gcc -o conftest -g -O2 -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   conftest.c  -lm >&5
+configure:16710: gcc -o conftest -g -O2 -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   conftest.c  -lm >&5
 conftest.c:116:6: warning: conflicting types for built-in function 'atanf'
  char atanf ();
       ^~~~~
 configure:16710: $? = 0
 configure:16710: result: yes
 configure:16710: checking for atan2
-configure:16710: gcc -o conftest -g -O2 -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   conftest.c  -lm >&5
+configure:16710: gcc -o conftest -g -O2 -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   conftest.c  -lm >&5
 conftest.c:117:6: warning: conflicting types for built-in function 'atan2'
  char atan2 ();
       ^~~~~
 configure:16710: $? = 0
 configure:16710: result: yes
 configure:16710: checking for atan2f
-configure:16710: gcc -o conftest -g -O2 -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   conftest.c  -lm >&5
+configure:16710: gcc -o conftest -g -O2 -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   conftest.c  -lm >&5
 conftest.c:118:6: warning: conflicting types for built-in function 'atan2f'
  char atan2f ();
       ^~~~~~
 configure:16710: $? = 0
 configure:16710: result: yes
 configure:16710: checking for ceil
-configure:16710: gcc -o conftest -g -O2 -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   conftest.c  -lm >&5
+configure:16710: gcc -o conftest -g -O2 -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   conftest.c  -lm >&5
 conftest.c:119:6: warning: conflicting types for built-in function 'ceil'
  char ceil ();
       ^~~~
 configure:16710: $? = 0
 configure:16710: result: yes
 configure:16710: checking for ceilf
-configure:16710: gcc -o conftest -g -O2 -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   conftest.c  -lm >&5
+configure:16710: gcc -o conftest -g -O2 -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   conftest.c  -lm >&5
 conftest.c:120:6: warning: conflicting types for built-in function 'ceilf'
  char ceilf ();
       ^~~~~
 configure:16710: $? = 0
 configure:16710: result: yes
 configure:16710: checking for copysign
-configure:16710: gcc -o conftest -g -O2 -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   conftest.c  -lm >&5
+configure:16710: gcc -o conftest -g -O2 -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   conftest.c  -lm >&5
 conftest.c:121:6: warning: conflicting types for built-in function 'copysign'
  char copysign ();
       ^~~~~~~~
 configure:16710: $? = 0
 configure:16710: result: yes
 configure:16710: checking for copysignf
-configure:16710: gcc -o conftest -g -O2 -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   conftest.c  -lm >&5
+configure:16710: gcc -o conftest -g -O2 -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   conftest.c  -lm >&5
 conftest.c:122:6: warning: conflicting types for built-in function 'copysignf'
  char copysignf ();
       ^~~~~~~~~
 configure:16710: $? = 0
 configure:16710: result: yes
 configure:16710: checking for cos
-configure:16710: gcc -o conftest -g -O2 -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   conftest.c  -lm >&5
+configure:16710: gcc -o conftest -g -O2 -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   conftest.c  -lm >&5
 conftest.c:123:6: warning: conflicting types for built-in function 'cos'
  char cos ();
       ^~~
 configure:16710: $? = 0
 configure:16710: result: yes
 configure:16710: checking for cosf
-configure:16710: gcc -o conftest -g -O2 -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   conftest.c  -lm >&5
+configure:16710: gcc -o conftest -g -O2 -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   conftest.c  -lm >&5
 conftest.c:124:6: warning: conflicting types for built-in function 'cosf'
  char cosf ();
       ^~~~
 configure:16710: $? = 0
 configure:16710: result: yes
 configure:16710: checking for exp
-configure:16710: gcc -o conftest -g -O2 -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   conftest.c  -lm >&5
+configure:16710: gcc -o conftest -g -O2 -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   conftest.c  -lm >&5
 conftest.c:125:6: warning: conflicting types for built-in function 'exp'
  char exp ();
       ^~~
 configure:16710: $? = 0
 configure:16710: result: yes
 configure:16710: checking for expf
-configure:16710: gcc -o conftest -g -O2 -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   conftest.c  -lm >&5
+configure:16710: gcc -o conftest -g -O2 -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   conftest.c  -lm >&5
 conftest.c:126:6: warning: conflicting types for built-in function 'expf'
  char expf ();
       ^~~~
 configure:16710: $? = 0
 configure:16710: result: yes
 configure:16710: checking for fabs
-configure:16710: gcc -o conftest -g -O2 -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   conftest.c  -lm >&5
+configure:16710: gcc -o conftest -g -O2 -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   conftest.c  -lm >&5
 conftest.c:127:6: warning: conflicting types for built-in function 'fabs'
  char fabs ();
       ^~~~
 configure:16710: $? = 0
 configure:16710: result: yes
 configure:16710: checking for fabsf
-configure:16710: gcc -o conftest -g -O2 -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   conftest.c  -lm >&5
+configure:16710: gcc -o conftest -g -O2 -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   conftest.c  -lm >&5
 conftest.c:128:6: warning: conflicting types for built-in function 'fabsf'
  char fabsf ();
       ^~~~~
 configure:16710: $? = 0
 configure:16710: result: yes
 configure:16710: checking for floor
-configure:16710: gcc -o conftest -g -O2 -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   conftest.c  -lm >&5
+configure:16710: gcc -o conftest -g -O2 -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   conftest.c  -lm >&5
 conftest.c:129:6: warning: conflicting types for built-in function 'floor'
  char floor ();
       ^~~~~
 configure:16710: $? = 0
 configure:16710: result: yes
 configure:16710: checking for floorf
-configure:16710: gcc -o conftest -g -O2 -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   conftest.c  -lm >&5
+configure:16710: gcc -o conftest -g -O2 -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   conftest.c  -lm >&5
 conftest.c:130:6: warning: conflicting types for built-in function 'floorf'
  char floorf ();
       ^~~~~~
 configure:16710: $? = 0
 configure:16710: result: yes
 configure:16710: checking for fmod
-configure:16710: gcc -o conftest -g -O2 -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   conftest.c  -lm >&5
+configure:16710: gcc -o conftest -g -O2 -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   conftest.c  -lm >&5
 conftest.c:131:6: warning: conflicting types for built-in function 'fmod'
  char fmod ();
       ^~~~
 configure:16710: $? = 0
 configure:16710: result: yes
 configure:16710: checking for fmodf
-configure:16710: gcc -o conftest -g -O2 -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   conftest.c  -lm >&5
+configure:16710: gcc -o conftest -g -O2 -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   conftest.c  -lm >&5
 conftest.c:132:6: warning: conflicting types for built-in function 'fmodf'
  char fmodf ();
       ^~~~~
 configure:16710: $? = 0
 configure:16710: result: yes
 configure:16710: checking for log
-configure:16710: gcc -o conftest -g -O2 -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   conftest.c  -lm >&5
+configure:16710: gcc -o conftest -g -O2 -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   conftest.c  -lm >&5
 conftest.c:133:6: warning: conflicting types for built-in function 'log'
  char log ();
       ^~~
 configure:16710: $? = 0
 configure:16710: result: yes
 configure:16710: checking for logf
-configure:16710: gcc -o conftest -g -O2 -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   conftest.c  -lm >&5
+configure:16710: gcc -o conftest -g -O2 -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   conftest.c  -lm >&5
 conftest.c:134:6: warning: conflicting types for built-in function 'logf'
  char logf ();
       ^~~~
 configure:16710: $? = 0
 configure:16710: result: yes
 configure:16710: checking for log10
-configure:16710: gcc -o conftest -g -O2 -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   conftest.c  -lm >&5
+configure:16710: gcc -o conftest -g -O2 -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   conftest.c  -lm >&5
 conftest.c:135:6: warning: conflicting types for built-in function 'log10'
  char log10 ();
       ^~~~~
 configure:16710: $? = 0
 configure:16710: result: yes
 configure:16710: checking for log10f
-configure:16710: gcc -o conftest -g -O2 -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   conftest.c  -lm >&5
+configure:16710: gcc -o conftest -g -O2 -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   conftest.c  -lm >&5
 conftest.c:136:6: warning: conflicting types for built-in function 'log10f'
  char log10f ();
       ^~~~~~
 configure:16710: $? = 0
 configure:16710: result: yes
 configure:16710: checking for pow
-configure:16710: gcc -o conftest -g -O2 -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   conftest.c  -lm >&5
+configure:16710: gcc -o conftest -g -O2 -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   conftest.c  -lm >&5
 conftest.c:137:6: warning: conflicting types for built-in function 'pow'
  char pow ();
       ^~~
 configure:16710: $? = 0
 configure:16710: result: yes
 configure:16710: checking for powf
-configure:16710: gcc -o conftest -g -O2 -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   conftest.c  -lm >&5
+configure:16710: gcc -o conftest -g -O2 -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   conftest.c  -lm >&5
 conftest.c:138:6: warning: conflicting types for built-in function 'powf'
  char powf ();
       ^~~~
 configure:16710: $? = 0
 configure:16710: result: yes
 configure:16710: checking for scalbn
-configure:16710: gcc -o conftest -g -O2 -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   conftest.c  -lm >&5
+configure:16710: gcc -o conftest -g -O2 -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   conftest.c  -lm >&5
 conftest.c:139:6: warning: conflicting types for built-in function 'scalbn'
  char scalbn ();
       ^~~~~~
 configure:16710: $? = 0
 configure:16710: result: yes
 configure:16710: checking for scalbnf
-configure:16710: gcc -o conftest -g -O2 -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   conftest.c  -lm >&5
+configure:16710: gcc -o conftest -g -O2 -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   conftest.c  -lm >&5
 conftest.c:140:6: warning: conflicting types for built-in function 'scalbnf'
  char scalbnf ();
       ^~~~~~~
 configure:16710: $? = 0
 configure:16710: result: yes
 configure:16710: checking for sin
-configure:16710: gcc -o conftest -g -O2 -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   conftest.c  -lm >&5
+configure:16710: gcc -o conftest -g -O2 -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   conftest.c  -lm >&5
 conftest.c:141:6: warning: conflicting types for built-in function 'sin'
  char sin ();
       ^~~
 configure:16710: $? = 0
 configure:16710: result: yes
 configure:16710: checking for sinf
-configure:16710: gcc -o conftest -g -O2 -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   conftest.c  -lm >&5
+configure:16710: gcc -o conftest -g -O2 -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   conftest.c  -lm >&5
 conftest.c:142:6: warning: conflicting types for built-in function 'sinf'
  char sinf ();
       ^~~~
 configure:16710: $? = 0
 configure:16710: result: yes
 configure:16710: checking for sqrt
-configure:16710: gcc -o conftest -g -O2 -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   conftest.c  -lm >&5
+configure:16710: gcc -o conftest -g -O2 -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   conftest.c  -lm >&5
 conftest.c:143:6: warning: conflicting types for built-in function 'sqrt'
  char sqrt ();
       ^~~~
 configure:16710: $? = 0
 configure:16710: result: yes
 configure:16710: checking for sqrtf
-configure:16710: gcc -o conftest -g -O2 -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   conftest.c  -lm >&5
+configure:16710: gcc -o conftest -g -O2 -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   conftest.c  -lm >&5
 conftest.c:144:6: warning: conflicting types for built-in function 'sqrtf'
  char sqrtf ();
       ^~~~~
 configure:16710: $? = 0
 configure:16710: result: yes
 configure:16710: checking for tan
-configure:16710: gcc -o conftest -g -O2 -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   conftest.c  -lm >&5
+configure:16710: gcc -o conftest -g -O2 -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   conftest.c  -lm >&5
 conftest.c:145:6: warning: conflicting types for built-in function 'tan'
  char tan ();
       ^~~
 configure:16710: $? = 0
 configure:16710: result: yes
 configure:16710: checking for tanf
-configure:16710: gcc -o conftest -g -O2 -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   conftest.c  -lm >&5
+configure:16710: gcc -o conftest -g -O2 -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   conftest.c  -lm >&5
 conftest.c:146:6: warning: conflicting types for built-in function 'tanf'
  char tanf ();
       ^~~~
 configure:16710: $? = 0
 configure:16710: result: yes
 configure:16720: checking for iconv_open in -liconv
-configure:16745: gcc -o conftest -g -O2 -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   conftest.c -liconv   -lm >&5
+configure:16745: gcc -o conftest -g -O2 -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   conftest.c -liconv   -lm >&5
 /usr/bin/ld: cannot find -liconv
 collect2: error: ld returned 1 exit status
 configure:16745: $? = 1
@@ -2974,15 +2974,15 @@ configure: failed program was:
 | }
 configure:16754: result: no
 configure:16762: checking for iconv
-configure:16762: gcc -o conftest -g -O2 -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   conftest.c  -lm >&5
+configure:16762: gcc -o conftest -g -O2 -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   conftest.c  -lm >&5
 configure:16762: $? = 0
 configure:16762: result: yes
 configure:16772: checking for struct sigaction.sa_sigaction
-configure:16772: gcc -c -g -O2 -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos  conftest.c >&5
+configure:16772: gcc -c -g -O2 -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos  conftest.c >&5
 configure:16772: $? = 0
 configure:16772: result: yes
 configure:16783: checking libunwind.h usability
-configure:16783: gcc -c -g -O2 -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos  conftest.c >&5
+configure:16783: gcc -c -g -O2 -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos  conftest.c >&5
 conftest.c:159:23: fatal error: libunwind.h: No such file or directory
  #include <libunwind.h>
                        ^
@@ -3150,7 +3150,7 @@ configure: failed program was:
 | #include <libunwind.h>
 configure:16783: result: no
 configure:16783: checking libunwind.h presence
-configure:16783: gcc -E  -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos  conftest.c
+configure:16783: gcc -E  -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos  conftest.c
 conftest.c:126:23: fatal error: libunwind.h: No such file or directory
  #include <libunwind.h>
                        ^
@@ -3287,11 +3287,11 @@ configure:16783: result: no
 configure:16783: checking for libunwind.h
 configure:16783: result: no
 configure:16805: checking for GCC builtin atomic operations
-configure:16827: gcc -o conftest -g -O2 -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   conftest.c  -lm >&5
+configure:16827: gcc -o conftest -g -O2 -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   conftest.c  -lm >&5
 configure:16827: $? = 0
 configure:16834: result: yes
 configure:17159: checking for GCC -mmmx option
-configure:17190: gcc -c -g -O2 -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos  -mmmx  -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos  conftest.c >&5
+configure:17190: gcc -c -g -O2 -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos  -mmmx  -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos  conftest.c >&5
 gcc: error: unrecognized command line option '-mmmx'
 configure:17190: $? = 1
 configure: failed program was:
@@ -3447,7 +3447,7 @@ configure: failed program was:
 | }
 configure:17196: result: no
 configure:17216: checking for GCC -m3dnow option
-configure:17240: gcc -o conftest -g -O2 -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos  -m3dnow  -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   conftest.c  -lm >&5
+configure:17240: gcc -o conftest -g -O2 -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos  -m3dnow  -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   conftest.c  -lm >&5
 gcc: error: unrecognized command line option '-m3dnow'
 configure:17240: $? = 1
 configure: failed program was:
@@ -3596,7 +3596,7 @@ configure: failed program was:
 | }
 configure:17247: result: no
 configure:17267: checking for GCC -msse option
-configure:17298: gcc -c -g -O2 -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos  -msse  -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos  conftest.c >&5
+configure:17298: gcc -c -g -O2 -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos  -msse  -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos  conftest.c >&5
 gcc: error: unrecognized command line option '-msse'; did you mean '-fdse'?
 configure:17298: $? = 1
 configure: failed program was:
@@ -3752,7 +3752,7 @@ configure: failed program was:
 | }
 configure:17304: result: no
 configure:17428: checking immintrin.h usability
-configure:17428: gcc -c -g -O2 -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos  conftest.c >&5
+configure:17428: gcc -c -g -O2 -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos  conftest.c >&5
 conftest.c:161:23: fatal error: immintrin.h: No such file or directory
  #include <immintrin.h>
                        ^
@@ -3922,7 +3922,7 @@ configure: failed program was:
 | #include <immintrin.h>
 configure:17428: result: no
 configure:17428: checking immintrin.h presence
-configure:17428: gcc -E  -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos  conftest.c
+configure:17428: gcc -E  -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos  conftest.c
 conftest.c:128:23: fatal error: immintrin.h: No such file or directory
  #include <immintrin.h>
                        ^
@@ -4061,7 +4061,7 @@ configure:17428: result: no
 configure:17428: checking for immintrin.h
 configure:17428: result: no
 configure:17456: checking for Altivec with GCC altivec.h and -maltivec option
-configure:17475: gcc -c -g -O2 -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos  -maltivec  -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos  conftest.c >&5
+configure:17475: gcc -c -g -O2 -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos  -maltivec  -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos  conftest.c >&5
 gcc: error: unrecognized command line option '-maltivec'; did you mean '-mglibc'?
 configure:17475: $? = 1
 configure: failed program was:
@@ -4208,7 +4208,7 @@ configure: failed program was:
 | }
 configure:17482: result: no
 configure:17486: checking for Altivec with GCC -maltivec option
-configure:17504: gcc -c -g -O2 -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos  -maltivec  -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos  conftest.c >&5
+configure:17504: gcc -c -g -O2 -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos  -maltivec  -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos  conftest.c >&5
 gcc: error: unrecognized command line option '-maltivec'; did you mean '-mglibc'?
 configure:17504: $? = 1
 configure: failed program was:
@@ -4354,7 +4354,7 @@ configure: failed program was:
 | }
 configure:17510: result: no
 configure:17515: checking for Altivec with GCC altivec.h and -faltivec option
-configure:17536: gcc -c -g -O2 -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos  -faltivec  -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos  conftest.c >&5
+configure:17536: gcc -c -g -O2 -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos  -faltivec  -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos  conftest.c >&5
 gcc: error: unrecognized command line option '-faltivec'
 configure:17536: $? = 1
 configure: failed program was:
@@ -4501,7 +4501,7 @@ configure: failed program was:
 | }
 configure:17543: result: no
 configure:17548: checking for Altivec with GCC -faltivec option
-configure:17566: gcc -c -g -O2 -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos  -faltivec  -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos  conftest.c >&5
+configure:17566: gcc -c -g -O2 -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos  -faltivec  -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos  conftest.c >&5
 gcc: error: unrecognized command line option '-faltivec'
 configure:17566: $? = 1
 configure: failed program was:
@@ -4647,27 +4647,27 @@ configure: failed program was:
 | }
 configure:17572: result: no
 configure:19115: checking for GCC -Wall option
-configure:19135: gcc -c -g -O2 -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos  -Wall  -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos  conftest.c >&5
+configure:19135: gcc -c -g -O2 -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos  -Wall  -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos  conftest.c >&5
 configure:19135: $? = 0
 configure:19141: result: yes
 configure:19148: checking for necessary GCC -Wno-multichar option
 configure:19156: result: no
 configure:19001: checking for GCC -fvisibility=hidden option
-configure:19024: gcc -c -g -O2 -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos  -fvisibility=hidden -Werror  -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos  conftest.c >&5
+configure:19024: gcc -c -g -O2 -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos  -fvisibility=hidden -Werror  -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos  conftest.c >&5
 configure:19024: $? = 0
 configure:19030: result: yes
 configure:19078: checking for GCC -Wdeclaration-after-statement option
-configure:19098: gcc -c -g -O2 -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos  -Wdeclaration-after-statement -Werror=declaration-after-statement  -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos  conftest.c >&5
+configure:19098: gcc -c -g -O2 -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos  -Wdeclaration-after-statement -Werror=declaration-after-statement  -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos  conftest.c >&5
 configure:19098: $? = 0
 configure:19104: result: yes
 configure:23305: checking for dlopen
-configure:23324: gcc -c -g -O2 -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos  conftest.c >&5
+configure:23324: gcc -c -g -O2 -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos  conftest.c >&5
 configure:23324: $? = 0
 configure:23330: result: yes
 configure:23334: checking for dlopen in -lc
-configure:23359: gcc -o conftest -g -O2 -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   conftest.c -lc   -lm >&5
-/tmp/ccs6eFX4.o: In function `main':
-/root/SDL2-2.0.9/conftest.c:142: undefined reference to `dlopen'
+configure:23359: gcc -o conftest -g -O2 -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   conftest.c -lc   -lm >&5
+/tmp/ccCEbVm2.o: In function `main':
+/root/SDL-2.0.9-raspberrypi/conftest.c:142: undefined reference to `dlopen'
 collect2: error: ld returned 1 exit status
 configure:23359: $? = 1
 configure: failed program was:
@@ -4818,11 +4818,11 @@ configure: failed program was:
 | }
 configure:23368: result: no
 configure:23373: checking for dlopen in -ldl
-configure:23398: gcc -o conftest -g -O2 -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   conftest.c -ldl   -lm >&5
+configure:23398: gcc -o conftest -g -O2 -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   conftest.c -ldl   -lm >&5
 configure:23398: $? = 0
 configure:23407: result: yes
 configure:17614: checking for OSS audio support
-configure:17633: gcc -c -g -O2 -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos  conftest.c >&5
+configure:17633: gcc -c -g -O2 -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos  conftest.c >&5
 configure:17633: $? = 0
 configure:17666: result: yes
 configure:17726: checking for ALSA CFLAGS
@@ -4830,11 +4830,11 @@ configure:17732: result:
 configure:17735: checking for ALSA LDFLAGS
 configure:17748: result:  -lasound -lm -ldl -lpthread
 configure:17752: checking for libasound headers version >= 1.0.11
-configure:17814: gcc -c -g -O2 -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos  conftest.c >&5
+configure:17814: gcc -c -g -O2 -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos  conftest.c >&5
 configure:17814: $? = 0
 configure:17815: result: found.
 configure:17833: checking for snd_ctl_open in -lasound
-configure:17858: gcc -o conftest -g -O2 -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   conftest.c -lasound   -lasound -lm -ldl -lpthread  >&5
+configure:17858: gcc -o conftest -g -O2 -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   conftest.c -lasound   -lasound -lm -ldl -lpthread  >&5
 configure:17858: $? = 0
 configure:17867: result: yes
 configure:17960: checking for pkg-config
@@ -4845,39 +4845,39 @@ configure:18008: result: no
 configure:18467: checking for artsc-config
 configure:18500: result: no
 configure:18588: checking audio/audiolib.h usability
-configure:18588: gcc -c -g -O2 -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos  conftest.c >&5
+configure:18588: gcc -c -g -O2 -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos  conftest.c >&5
 configure:18588: $? = 0
 configure:18588: result: yes
 configure:18588: checking audio/audiolib.h presence
-configure:18588: gcc -E  -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos  conftest.c
+configure:18588: gcc -E  -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos  conftest.c
 configure:18588: $? = 0
 configure:18588: result: yes
 configure:18588: checking for audio/audiolib.h
 configure:18588: result: yes
 configure:18594: checking for AuOpenServer in -laudio
-configure:18619: gcc -o conftest -g -O2 -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   conftest.c -laudio   -lm >&5
+configure:18619: gcc -o conftest -g -O2 -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   conftest.c -laudio   -lm >&5
 configure:18619: $? = 0
 configure:18628: result: yes
 configure:18635: checking for NAS audio support
 configure:18650: result: yes
 configure:18702: checking sndio.h usability
-configure:18702: gcc -c -g -O2 -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos  conftest.c >&5
+configure:18702: gcc -c -g -O2 -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos  conftest.c >&5
 configure:18702: $? = 0
 configure:18702: result: yes
 configure:18702: checking sndio.h presence
-configure:18702: gcc -E  -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos  conftest.c
+configure:18702: gcc -E  -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos  conftest.c
 configure:18702: $? = 0
 configure:18702: result: yes
 configure:18702: checking for sndio.h
 configure:18702: result: yes
 configure:18708: checking for sio_open in -lsndio
-configure:18733: gcc -o conftest -g -O2 -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   conftest.c -lsndio   -lm >&5
+configure:18733: gcc -o conftest -g -O2 -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   conftest.c -lsndio   -lm >&5
 configure:18733: $? = 0
 configure:18742: result: yes
 configure:18749: checking for sndio audio support
 configure:18758: result: yes
 configure:18956: checking samplerate.h usability
-configure:18956: gcc -c -g -O2 -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos  conftest.c >&5
+configure:18956: gcc -c -g -O2 -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos  conftest.c >&5
 conftest.c:172:24: fatal error: samplerate.h: No such file or directory
  #include <samplerate.h>
                         ^
@@ -5058,7 +5058,7 @@ configure: failed program was:
 | #include <samplerate.h>
 configure:18956: result: no
 configure:18956: checking samplerate.h presence
-configure:18956: gcc -E  -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos  conftest.c
+configure:18956: gcc -E  -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos  conftest.c
 conftest.c:139:24: fatal error: samplerate.h: No such file or directory
  #include <samplerate.h>
                         ^
@@ -5210,19 +5210,19 @@ configure:18956: result: no
 configure:19533: checking for pkg-config
 configure:19564: result: /usr/bin/pkg-config
 configure:19589: checking for Raspberry Pi
-configure:19607: gcc -o conftest -g -O2 -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos  -I/opt/vc/include -I/opt/vc/include/interface/vcos/pthreads -I/opt/vc/include/interface/vmcs_host/linux  -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   conftest.c  -lm -Wl,-rpath,/opt/vc/lib -L/opt/vc/lib -lbcm_host >&5
+configure:19607: gcc -o conftest -g -O2 -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos  -I/opt/vc/include -I/opt/vc/include/interface/vcos/pthreads -I/opt/vc/include/interface/vmcs_host/linux  -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   conftest.c  -lm -Wl,-rpath,/opt/vc/lib -L/opt/vc/lib -lbcm_host >&5
 configure:19607: $? = 0
 configure:19614: result: yes
 configure:21809: checking for EGL support
-configure:21829: gcc -c -g -O2 -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos  -I/opt/vc/include -I/opt/vc/include/interface/vcos/pthreads -I/opt/vc/include/interface/vmcs_host/linux  -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos  conftest.c >&5
+configure:21829: gcc -c -g -O2 -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos  -I/opt/vc/include -I/opt/vc/include/interface/vcos/pthreads -I/opt/vc/include/interface/vmcs_host/linux  -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos  conftest.c >&5
 configure:21829: $? = 0
 configure:21835: result: yes
 configure:21844: checking for OpenGL ES v1 headers
-configure:21862: gcc -c -g -O2 -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos  -I/opt/vc/include -I/opt/vc/include/interface/vcos/pthreads -I/opt/vc/include/interface/vmcs_host/linux  -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos  conftest.c >&5
+configure:21862: gcc -c -g -O2 -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos  -I/opt/vc/include -I/opt/vc/include/interface/vcos/pthreads -I/opt/vc/include/interface/vmcs_host/linux  -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos  conftest.c >&5
 configure:21862: $? = 0
 configure:21868: result: yes
 configure:21882: checking for OpenGL ES v2 headers
-configure:21900: gcc -c -g -O2 -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos  -I/opt/vc/include -I/opt/vc/include/interface/vcos/pthreads -I/opt/vc/include/interface/vmcs_host/linux  -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos  conftest.c >&5
+configure:21900: gcc -c -g -O2 -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos  -I/opt/vc/include -I/opt/vc/include/interface/vcos/pthreads -I/opt/vc/include/interface/vmcs_host/linux  -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos  conftest.c >&5
 configure:21900: $? = 0
 configure:21906: result: yes
 configure:19185: checking for pkg-config
@@ -5230,11 +5230,11 @@ configure:19216: result: /usr/bin/pkg-config
 configure:19224: checking for Wayland support
 configure:19237: result: no
 configure:22319: checking libudev.h usability
-configure:22319: gcc -c -g -O2 -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos  -I/opt/vc/include -I/opt/vc/include/interface/vcos/pthreads -I/opt/vc/include/interface/vmcs_host/linux  -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos  conftest.c >&5
+configure:22319: gcc -c -g -O2 -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos  -I/opt/vc/include -I/opt/vc/include/interface/vcos/pthreads -I/opt/vc/include/interface/vmcs_host/linux  -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos  conftest.c >&5
 configure:22319: $? = 0
 configure:22319: result: yes
 configure:22319: checking libudev.h presence
-configure:22319: gcc -E  -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos  conftest.c
+configure:22319: gcc -E  -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos  conftest.c
 configure:22319: $? = 0
 configure:22319: result: yes
 configure:22319: checking for libudev.h
@@ -5242,11 +5242,11 @@ configure:22319: result: yes
 configure:22357: checking for pkg-config
 configure:22388: result: /usr/bin/pkg-config
 configure:22400: checking dbus/dbus.h usability
-configure:22400: gcc -c -g -O2 -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos  -I/opt/vc/include -I/opt/vc/include/interface/vcos/pthreads -I/opt/vc/include/interface/vmcs_host/linux -I/usr/include/dbus-1.0 -I/usr/lib/arm-linux-gnueabihf/dbus-1.0/include  -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos  conftest.c >&5
+configure:22400: gcc -c -g -O2 -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos  -I/opt/vc/include -I/opt/vc/include/interface/vcos/pthreads -I/opt/vc/include/interface/vmcs_host/linux -I/usr/include/dbus-1.0 -I/usr/lib/arm-linux-gnueabihf/dbus-1.0/include  -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos  conftest.c >&5
 configure:22400: $? = 0
 configure:22400: result: yes
 configure:22400: checking dbus/dbus.h presence
-configure:22400: gcc -E  -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos  conftest.c
+configure:22400: gcc -E  -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos  conftest.c
 conftest.c:148:23: fatal error: dbus/dbus.h: No such file or directory
  #include <dbus/dbus.h>
                        ^
@@ -5409,11 +5409,11 @@ configure:22400: result: yes
 configure:22449: checking for pkg-config
 configure:22480: result: /usr/bin/pkg-config
 configure:22492: checking ibus-1.0/ibus.h usability
-configure:22492: gcc -c -g -O2 -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos  -I/opt/vc/include -I/opt/vc/include/interface/vcos/pthreads -I/opt/vc/include/interface/vmcs_host/linux -pthread -I/usr/include/ibus-1.0 -I/usr/include/glib-2.0 -I/usr/lib/arm-linux-gnueabihf/glib-2.0/include  -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos  conftest.c >&5
+configure:22492: gcc -c -g -O2 -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos  -I/opt/vc/include -I/opt/vc/include/interface/vcos/pthreads -I/opt/vc/include/interface/vmcs_host/linux -pthread -I/usr/include/ibus-1.0 -I/usr/include/glib-2.0 -I/usr/lib/arm-linux-gnueabihf/glib-2.0/include  -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos  conftest.c >&5
 configure:22492: $? = 0
 configure:22492: result: yes
 configure:22492: checking ibus-1.0/ibus.h presence
-configure:22492: gcc -E  -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos  conftest.c
+configure:22492: gcc -E  -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos  conftest.c
 In file included from conftest.c:150:0:
 /usr/include/ibus-1.0/ibus.h:28:25: fatal error: ibusversion.h: No such file or directory
  #include <ibusversion.h>
@@ -5577,11 +5577,11 @@ configure:22492: WARNING: ibus-1.0/ibus.h: proceeding with the compiler's result
 configure:22492: checking for ibus-1.0/ibus.h
 configure:22492: result: yes
 configure:22500: checking sys/inotify.h usability
-configure:22500: gcc -c -g -O2 -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos  -I/opt/vc/include -I/opt/vc/include/interface/vcos/pthreads -I/opt/vc/include/interface/vmcs_host/linux -pthread -I/usr/include/ibus-1.0 -I/usr/include/glib-2.0 -I/usr/lib/arm-linux-gnueabihf/glib-2.0/include  -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos  conftest.c >&5
+configure:22500: gcc -c -g -O2 -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos  -I/opt/vc/include -I/opt/vc/include/interface/vcos/pthreads -I/opt/vc/include/interface/vmcs_host/linux -pthread -I/usr/include/ibus-1.0 -I/usr/include/glib-2.0 -I/usr/lib/arm-linux-gnueabihf/glib-2.0/include  -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos  conftest.c >&5
 configure:22500: $? = 0
 configure:22500: result: yes
 configure:22500: checking sys/inotify.h presence
-configure:22500: gcc -E  -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos  conftest.c
+configure:22500: gcc -E  -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos  conftest.c
 configure:22500: $? = 0
 configure:22500: result: yes
 configure:22500: checking for sys/inotify.h
@@ -5589,7 +5589,7 @@ configure:22500: result: yes
 configure:22546: checking for pkg-config
 configure:22577: result: /usr/bin/pkg-config
 configure:22588: checking fcitx/frontend.h usability
-configure:22588: gcc -c -g -O2 -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos  -I/opt/vc/include -I/opt/vc/include/interface/vcos/pthreads -I/opt/vc/include/interface/vmcs_host/linux   -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos  conftest.c >&5
+configure:22588: gcc -c -g -O2 -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos  -I/opt/vc/include -I/opt/vc/include/interface/vcos/pthreads -I/opt/vc/include/interface/vmcs_host/linux   -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos  conftest.c >&5
 conftest.c:184:28: fatal error: fcitx/frontend.h: No such file or directory
  #include <fcitx/frontend.h>
                             ^
@@ -5782,7 +5782,7 @@ configure: failed program was:
 | #include <fcitx/frontend.h>
 configure:22588: result: no
 configure:22588: checking fcitx/frontend.h presence
-configure:22588: gcc -E  -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos  conftest.c
+configure:22588: gcc -E  -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos  conftest.c
 conftest.c:151:28: fatal error: fcitx/frontend.h: No such file or directory
  #include <fcitx/frontend.h>
                             ^
@@ -5944,11 +5944,11 @@ configure:22588: result: no
 configure:22588: checking for fcitx/frontend.h
 configure:22588: result: no
 configure:22233: checking for Linux 2.4 unified input interface
-configure:22253: gcc -c -g -O2 -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos  -I/opt/vc/include -I/opt/vc/include/interface/vcos/pthreads -I/opt/vc/include/interface/vmcs_host/linux  -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos  conftest.c >&5
+configure:22253: gcc -c -g -O2 -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos  -I/opt/vc/include -I/opt/vc/include/interface/vcos/pthreads -I/opt/vc/include/interface/vmcs_host/linux  -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos  conftest.c >&5
 configure:22253: $? = 0
 configure:22259: result: yes
 configure:22272: checking for Linux kd.h
-configure:22293: gcc -c -g -O2 -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos  -I/opt/vc/include -I/opt/vc/include/interface/vcos/pthreads -I/opt/vc/include/interface/vmcs_host/linux  -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos  conftest.c >&5
+configure:22293: gcc -c -g -O2 -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos  -I/opt/vc/include -I/opt/vc/include/interface/vcos/pthreads -I/opt/vc/include/interface/vmcs_host/linux  -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos  conftest.c >&5
 conftest.c: In function 'main':
 conftest.c:162:9: warning: implicit declaration of function 'ioctl' [-Wimplicit-function-declaration]
          ioctl(0, KDGKBENT, &kbe);
@@ -5956,27 +5956,27 @@ conftest.c:162:9: warning: implicit declaration of function 'ioctl' [-Wimplicit-
 configure:22293: $? = 0
 configure:22299: result: yes
 configure:22628: checking for Touchscreen library support
-configure:22645: gcc -c -g -O2 -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos  -I/opt/vc/include -I/opt/vc/include/interface/vcos/pthreads -I/opt/vc/include/interface/vmcs_host/linux  -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos  conftest.c >&5
+configure:22645: gcc -c -g -O2 -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos  -I/opt/vc/include -I/opt/vc/include/interface/vcos/pthreads -I/opt/vc/include/interface/vmcs_host/linux  -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos  conftest.c >&5
 configure:22645: $? = 0
 configure:22651: result: yes
 configure:22755: checking for pthreads
-configure:22774: gcc -o conftest -g -O2 -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos  -I/opt/vc/include -I/opt/vc/include/interface/vcos/pthreads -I/opt/vc/include/interface/vmcs_host/linux -D_REENTRANT  -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   conftest.c  -lm -lpthread >&5
+configure:22774: gcc -o conftest -g -O2 -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos  -I/opt/vc/include -I/opt/vc/include/interface/vcos/pthreads -I/opt/vc/include/interface/vmcs_host/linux -D_REENTRANT  -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   conftest.c  -lm -lpthread >&5
 configure:22774: $? = 0
 configure:22781: result: yes
 configure:22801: checking for recursive mutexes
-configure:22822: gcc -o conftest -g -O2 -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos  -I/opt/vc/include -I/opt/vc/include/interface/vcos/pthreads -I/opt/vc/include/interface/vmcs_host/linux -D_REENTRANT  -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   conftest.c  -lm -lpthread >&5
+configure:22822: gcc -o conftest -g -O2 -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos  -I/opt/vc/include -I/opt/vc/include/interface/vcos/pthreads -I/opt/vc/include/interface/vmcs_host/linux -D_REENTRANT  -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   conftest.c  -lm -lpthread >&5
 configure:22822: $? = 0
 configure:22862: result: yes
 configure:22867: checking for pthread semaphores
-configure:22885: gcc -c -g -O2 -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos  -I/opt/vc/include -I/opt/vc/include/interface/vcos/pthreads -I/opt/vc/include/interface/vmcs_host/linux -D_REENTRANT  -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos  conftest.c >&5
+configure:22885: gcc -c -g -O2 -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos  -I/opt/vc/include -I/opt/vc/include/interface/vcos/pthreads -I/opt/vc/include/interface/vmcs_host/linux -D_REENTRANT  -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos  conftest.c >&5
 configure:22885: $? = 0
 configure:22891: result: yes
 configure:22895: checking for sem_timedwait
-configure:22914: gcc -o conftest -g -O2 -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos  -I/opt/vc/include -I/opt/vc/include/interface/vcos/pthreads -I/opt/vc/include/interface/vmcs_host/linux -D_REENTRANT  -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   conftest.c  -lm -lpthread >&5
+configure:22914: gcc -o conftest -g -O2 -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos  -I/opt/vc/include -I/opt/vc/include/interface/vcos/pthreads -I/opt/vc/include/interface/vmcs_host/linux -D_REENTRANT  -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   conftest.c  -lm -lpthread >&5
 configure:22914: $? = 0
 configure:22924: result: yes
 configure:22928: checking for pthread_np.h
-configure:22928: gcc -c -g -O2 -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos  -I/opt/vc/include -I/opt/vc/include/interface/vcos/pthreads -I/opt/vc/include/interface/vmcs_host/linux -D_REENTRANT  -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos  conftest.c >&5
+configure:22928: gcc -c -g -O2 -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos  -I/opt/vc/include -I/opt/vc/include/interface/vcos/pthreads -I/opt/vc/include/interface/vmcs_host/linux -D_REENTRANT  -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos  conftest.c >&5
 conftest.c:159:24: fatal error: pthread_np.h: No such file or directory
  #include <pthread_np.h>
                         ^
@@ -6144,13 +6144,13 @@ configure: failed program was:
 | #include <pthread_np.h>
 configure:22928: result: no
 configure:22944: checking for pthread_setname_np
-configure:22964: gcc -o conftest -g -O2 -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos  -I/opt/vc/include -I/opt/vc/include/interface/vcos/pthreads -I/opt/vc/include/interface/vmcs_host/linux -D_REENTRANT  -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   conftest.c  -lm -lpthread >&5
+configure:22964: gcc -o conftest -g -O2 -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos  -I/opt/vc/include -I/opt/vc/include/interface/vcos/pthreads -I/opt/vc/include/interface/vmcs_host/linux -D_REENTRANT  -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   conftest.c  -lm -lpthread >&5
 configure:22964: $? = 0
 configure:22978: result: yes
 configure:22981: checking for pthread_set_name_np
-configure:23001: gcc -o conftest -g -O2 -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos  -I/opt/vc/include -I/opt/vc/include/interface/vcos/pthreads -I/opt/vc/include/interface/vmcs_host/linux -D_REENTRANT  -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   conftest.c  -lm -lpthread >&5
-/tmp/ccsjEYhT.o: In function `main':
-/root/SDL2-2.0.9/conftest.c:169: undefined reference to `pthread_set_name_np'
+configure:23001: gcc -o conftest -g -O2 -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos  -I/opt/vc/include -I/opt/vc/include/interface/vcos/pthreads -I/opt/vc/include/interface/vmcs_host/linux -D_REENTRANT  -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   conftest.c  -lm -lpthread >&5
+/tmp/ccYiqF0K.o: In function `main':
+/root/SDL-2.0.9-raspberrypi/conftest.c:169: undefined reference to `pthread_set_name_np'
 collect2: error: ld returned 1 exit status
 configure:23001: $? = 1
 configure: failed program was:
@@ -6328,21 +6328,21 @@ configure: failed program was:
 | }
 configure:23015: result: no
 configure:23868: checking for clock_gettime in -lrt
-configure:23893: gcc -o conftest -g -O2 -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos  -I/opt/vc/include -I/opt/vc/include/interface/vcos/pthreads -I/opt/vc/include/interface/vmcs_host/linux  -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   conftest.c -lrt   -lm >&5
+configure:23893: gcc -o conftest -g -O2 -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos  -I/opt/vc/include -I/opt/vc/include/interface/vcos/pthreads -I/opt/vc/include/interface/vmcs_host/linux  -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   conftest.c -lrt   -lm >&5
 configure:23893: $? = 0
 configure:23902: result: yes
 configure:23966: checking linux/version.h usability
-configure:23966: gcc -c -g -O2 -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos  -I/opt/vc/include -I/opt/vc/include/interface/vcos/pthreads -I/opt/vc/include/interface/vmcs_host/linux  -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos  conftest.c >&5
+configure:23966: gcc -c -g -O2 -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos  -I/opt/vc/include -I/opt/vc/include/interface/vcos/pthreads -I/opt/vc/include/interface/vmcs_host/linux  -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos  conftest.c >&5
 configure:23966: $? = 0
 configure:23966: result: yes
 configure:23966: checking linux/version.h presence
-configure:23966: gcc -E  -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos  conftest.c
+configure:23966: gcc -E  -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos  conftest.c
 configure:23966: $? = 0
 configure:23966: result: yes
 configure:23966: checking for linux/version.h
 configure:23966: result: yes
 configure:21158: checking for Vivante VDK API
-configure:21177: gcc -c -g -O2 -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos  -I/opt/vc/include -I/opt/vc/include/interface/vcos/pthreads -I/opt/vc/include/interface/vmcs_host/linux  -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos  conftest.c >&5
+configure:21177: gcc -c -g -O2 -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos  -I/opt/vc/include -I/opt/vc/include/interface/vcos/pthreads -I/opt/vc/include/interface/vmcs_host/linux  -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos  conftest.c >&5
 conftest.c:162:30: fatal error: gc_vdk.h: No such file or directory
            #include <gc_vdk.h>
                               ^
@@ -6522,7 +6522,7 @@ configure: failed program was:
 | }
 configure:21183: result: no
 configure:21186: checking for Vivante FB API
-configure:21205: gcc -c -g -O2 -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos  -I/opt/vc/include -I/opt/vc/include/interface/vcos/pthreads -I/opt/vc/include/interface/vmcs_host/linux  -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos  conftest.c >&5
+configure:21205: gcc -c -g -O2 -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos  -I/opt/vc/include -I/opt/vc/include/interface/vcos/pthreads -I/opt/vc/include/interface/vmcs_host/linux  -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos  conftest.c >&5
 conftest.c:162:38: fatal error: EGL/eglvivante.h: No such file or directory
            #include <EGL/eglvivante.h>
                                       ^
@@ -6702,7 +6702,7 @@ configure: failed program was:
 | }
 configure:21211: result: no
 configure:24942: checking for linker option --enable-new-dtags
-configure:24960: gcc -o conftest -g -O2 -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos  -I/opt/vc/include -I/opt/vc/include/interface/vcos/pthreads -I/opt/vc/include/interface/vmcs_host/linux  -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos   -Wl,--enable-new-dtags conftest.c  -lm >&5
+configure:24960: gcc -o conftest -g -O2 -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos  -I/opt/vc/include -I/opt/vc/include/interface/vcos/pthreads -I/opt/vc/include/interface/vmcs_host/linux  -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos   -Wl,--enable-new-dtags conftest.c  -lm >&5
 configure:24960: $? = 0
 configure:24969: result: yes
 configure:25200: creating ./config.status
@@ -6728,6 +6728,7 @@ config.status:1332: creating sdl2-config.cmake
 config.status:1332: creating SDL2.spec
 config.status:1332: creating sdl2.pc
 config.status:1332: creating include/SDL_config.h
+config.status:1492: include/SDL_config.h is unchanged
 config.status:1506: executing libtool commands
 config.status:1506: executing sdl2_config commands
 config.status:1506: executing summary commands
@@ -6981,9 +6982,9 @@ AWK='mawk'
 BUILD_CFLAGS='-g -O3 -DUSING_GENERATED_CONFIG_H'
 BUILD_LDFLAGS=''
 CC='gcc'
-CFLAGS='-g -O2 -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos  -I/opt/vc/include -I/opt/vc/include/interface/vcos/pthreads -I/opt/vc/include/interface/vmcs_host/linux'
+CFLAGS='-g -O2 -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos  -I/opt/vc/include -I/opt/vc/include/interface/vcos/pthreads -I/opt/vc/include/interface/vmcs_host/linux'
 CPP='gcc -E'
-CPPFLAGS=' -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos '
+CPPFLAGS=' -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos '
 CXX='g++'
 CXXCPP='g++ -E'
 CXXFLAGS='-g -O2'
@@ -7004,13 +7005,13 @@ ESD_CFLAGS=''
 ESD_CONFIG=''
 ESD_LIBS=''
 EXEEXT=''
-EXTRA_CFLAGS='-Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos  -Wall -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement    -I/opt/vc/include -I/opt/vc/include/interface/vcos/pthreads -I/opt/vc/include/interface/vmcs_host/linux -I/usr/include/dbus-1.0 -I/usr/lib/arm-linux-gnueabihf/dbus-1.0/include -pthread -I/usr/include/ibus-1.0 -I/usr/include/glib-2.0 -I/usr/lib/arm-linux-gnueabihf/glib-2.0/include -D_REENTRANT -DHAVE_LINUX_VERSION_H'
+EXTRA_CFLAGS='-Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos  -Wall -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement    -I/opt/vc/include -I/opt/vc/include/interface/vcos/pthreads -I/opt/vc/include/interface/vmcs_host/linux -I/usr/include/dbus-1.0 -I/usr/lib/arm-linux-gnueabihf/dbus-1.0/include -pthread -I/usr/include/ibus-1.0 -I/usr/include/glib-2.0 -I/usr/lib/arm-linux-gnueabihf/glib-2.0/include -D_REENTRANT -DHAVE_LINUX_VERSION_H'
 EXTRA_LDFLAGS=' -Wl,--no-undefined -lm -ldl -lsndio -Wl,-rpath,/opt/vc/lib -L/opt/vc/lib -lbcm_host -lts -lpthread -lrt'
 FGREP='/bin/grep -F'
 GEN_HEADERS=''
 GEN_OBJECTS=''
 GREP='/bin/grep'
-INCLUDE='-Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos'
+INCLUDE='-Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos'
 INSTALL_DATA='${INSTALL} -m 644'
 INSTALL_PROGRAM='${INSTALL}'
 INSTALL_SCRIPT='${INSTALL}'

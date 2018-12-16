@@ -1,4 +1,5 @@
-build/SDL_test_common.lo: /root/SDL2-2.0.9/src/test/SDL_test_common.c \
+build/SDL_test_common.lo: \
+ /root/SDL-2.0.9-raspberrypi/src/test/SDL_test_common.c \
  include/SDL_config.h include/SDL_platform.h include/begin_code.h \
  include/close_code.h include/SDL_test.h include/SDL.h include/SDL_main.h \
  include/SDL_stdinc.h include/SDL_config.h include/SDL_assert.h \

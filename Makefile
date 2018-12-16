@@ -1,7 +1,7 @@
 # Makefile to build and install the SDL library
 
 top_builddir = .
-srcdir  = /root/SDL2-2.0.9
+srcdir  = /root/SDL-2.0.9-raspberrypi
 objects = build
 gen = gen
 prefix = /usr/local
@@ -19,9 +19,9 @@ distfile = $(distdir).tar.gz
 
 SHELL	= /bin/bash
 CC      = gcc
-INCLUDE = -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos
+INCLUDE = -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos
 CFLAGS  = -g -O3 -DUSING_GENERATED_CONFIG_H
-EXTRA_CFLAGS = -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos  -Wall -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement    -I/opt/vc/include -I/opt/vc/include/interface/vcos/pthreads -I/opt/vc/include/interface/vmcs_host/linux -I/usr/include/dbus-1.0 -I/usr/lib/arm-linux-gnueabihf/dbus-1.0/include -pthread -I/usr/include/ibus-1.0 -I/usr/include/glib-2.0 -I/usr/lib/arm-linux-gnueabihf/glib-2.0/include -D_REENTRANT -DHAVE_LINUX_VERSION_H
+EXTRA_CFLAGS = -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos  -Wall -fvisibility=hidden -Wdeclaration-after-statement -Werror=declaration-after-statement    -I/opt/vc/include -I/opt/vc/include/interface/vcos/pthreads -I/opt/vc/include/interface/vmcs_host/linux -I/usr/include/dbus-1.0 -I/usr/lib/arm-linux-gnueabihf/dbus-1.0/include -pthread -I/usr/include/ibus-1.0 -I/usr/include/glib-2.0 -I/usr/lib/arm-linux-gnueabihf/glib-2.0/include -D_REENTRANT -DHAVE_LINUX_VERSION_H
 LDFLAGS = 
 EXTRA_LDFLAGS =  -Wl,--no-undefined -lm -ldl -lsndio -Wl,-rpath,/opt/vc/lib -L/opt/vc/lib -lbcm_host -lts -lpthread -lrt
 LIBTOOL = $(SHELL) $(top_builddir)/libtool
@@ -243,447 +243,447 @@ rpm: $(distfile)
 -include $(OBJECTS:.lo=.d)
 
 # Special dependency for SDL.c, since it depends on SDL_revision.h
-/root/SDL2-2.0.9/src/SDL.c: update-revision
+/root/SDL-2.0.9-raspberrypi/src/SDL.c: update-revision
 
-$(objects)/SDL.lo: /root/SDL2-2.0.9/src/SDL.c
+$(objects)/SDL.lo: /root/SDL-2.0.9-raspberrypi/src/SDL.c
 	$(RUN_CMD_CC)$(LIBTOOL) --tag=CC --mode=compile $(CC) $(CFLAGS) $(EXTRA_CFLAGS) -MMD -MT $@ -c $< -o $@
 
-$(objects)/SDL_assert.lo: /root/SDL2-2.0.9/src/SDL_assert.c
+$(objects)/SDL_assert.lo: /root/SDL-2.0.9-raspberrypi/src/SDL_assert.c
 	$(RUN_CMD_CC)$(LIBTOOL) --tag=CC --mode=compile $(CC) $(CFLAGS) $(EXTRA_CFLAGS) -MMD -MT $@ -c $< -o $@
 
-$(objects)/SDL_dataqueue.lo: /root/SDL2-2.0.9/src/SDL_dataqueue.c
+$(objects)/SDL_dataqueue.lo: /root/SDL-2.0.9-raspberrypi/src/SDL_dataqueue.c
 	$(RUN_CMD_CC)$(LIBTOOL) --tag=CC --mode=compile $(CC) $(CFLAGS) $(EXTRA_CFLAGS) -MMD -MT $@ -c $< -o $@
 
-$(objects)/SDL_error.lo: /root/SDL2-2.0.9/src/SDL_error.c
+$(objects)/SDL_error.lo: /root/SDL-2.0.9-raspberrypi/src/SDL_error.c
 	$(RUN_CMD_CC)$(LIBTOOL) --tag=CC --mode=compile $(CC) $(CFLAGS) $(EXTRA_CFLAGS) -MMD -MT $@ -c $< -o $@
 
-$(objects)/SDL_hints.lo: /root/SDL2-2.0.9/src/SDL_hints.c
+$(objects)/SDL_hints.lo: /root/SDL-2.0.9-raspberrypi/src/SDL_hints.c
 	$(RUN_CMD_CC)$(LIBTOOL) --tag=CC --mode=compile $(CC) $(CFLAGS) $(EXTRA_CFLAGS) -MMD -MT $@ -c $< -o $@
 
-$(objects)/SDL_log.lo: /root/SDL2-2.0.9/src/SDL_log.c
+$(objects)/SDL_log.lo: /root/SDL-2.0.9-raspberrypi/src/SDL_log.c
 	$(RUN_CMD_CC)$(LIBTOOL) --tag=CC --mode=compile $(CC) $(CFLAGS) $(EXTRA_CFLAGS) -MMD -MT $@ -c $< -o $@
 
-$(objects)/SDL_atomic.lo: /root/SDL2-2.0.9/src/atomic/SDL_atomic.c
+$(objects)/SDL_atomic.lo: /root/SDL-2.0.9-raspberrypi/src/atomic/SDL_atomic.c
 	$(RUN_CMD_CC)$(LIBTOOL) --tag=CC --mode=compile $(CC) $(CFLAGS) $(EXTRA_CFLAGS) -MMD -MT $@ -c $< -o $@
 
-$(objects)/SDL_spinlock.lo: /root/SDL2-2.0.9/src/atomic/SDL_spinlock.c
+$(objects)/SDL_spinlock.lo: /root/SDL-2.0.9-raspberrypi/src/atomic/SDL_spinlock.c
 	$(RUN_CMD_CC)$(LIBTOOL) --tag=CC --mode=compile $(CC) $(CFLAGS) $(EXTRA_CFLAGS) -MMD -MT $@ -c $< -o $@
 
-$(objects)/SDL_audio.lo: /root/SDL2-2.0.9/src/audio/SDL_audio.c
+$(objects)/SDL_audio.lo: /root/SDL-2.0.9-raspberrypi/src/audio/SDL_audio.c
 	$(RUN_CMD_CC)$(LIBTOOL) --tag=CC --mode=compile $(CC) $(CFLAGS) $(EXTRA_CFLAGS) -MMD -MT $@ -c $< -o $@
 
-$(objects)/SDL_audiocvt.lo: /root/SDL2-2.0.9/src/audio/SDL_audiocvt.c
+$(objects)/SDL_audiocvt.lo: /root/SDL-2.0.9-raspberrypi/src/audio/SDL_audiocvt.c
 	$(RUN_CMD_CC)$(LIBTOOL) --tag=CC --mode=compile $(CC) $(CFLAGS) $(EXTRA_CFLAGS) -MMD -MT $@ -c $< -o $@
 
-$(objects)/SDL_audiodev.lo: /root/SDL2-2.0.9/src/audio/SDL_audiodev.c
+$(objects)/SDL_audiodev.lo: /root/SDL-2.0.9-raspberrypi/src/audio/SDL_audiodev.c
 	$(RUN_CMD_CC)$(LIBTOOL) --tag=CC --mode=compile $(CC) $(CFLAGS) $(EXTRA_CFLAGS) -MMD -MT $@ -c $< -o $@
 
-$(objects)/SDL_audiotypecvt.lo: /root/SDL2-2.0.9/src/audio/SDL_audiotypecvt.c
+$(objects)/SDL_audiotypecvt.lo: /root/SDL-2.0.9-raspberrypi/src/audio/SDL_audiotypecvt.c
 	$(RUN_CMD_CC)$(LIBTOOL) --tag=CC --mode=compile $(CC) $(CFLAGS) $(EXTRA_CFLAGS) -MMD -MT $@ -c $< -o $@
 
-$(objects)/SDL_mixer.lo: /root/SDL2-2.0.9/src/audio/SDL_mixer.c
+$(objects)/SDL_mixer.lo: /root/SDL-2.0.9-raspberrypi/src/audio/SDL_mixer.c
 	$(RUN_CMD_CC)$(LIBTOOL) --tag=CC --mode=compile $(CC) $(CFLAGS) $(EXTRA_CFLAGS) -MMD -MT $@ -c $< -o $@
 
-$(objects)/SDL_wave.lo: /root/SDL2-2.0.9/src/audio/SDL_wave.c
+$(objects)/SDL_wave.lo: /root/SDL-2.0.9-raspberrypi/src/audio/SDL_wave.c
 	$(RUN_CMD_CC)$(LIBTOOL) --tag=CC --mode=compile $(CC) $(CFLAGS) $(EXTRA_CFLAGS) -MMD -MT $@ -c $< -o $@
 
-$(objects)/SDL_cpuinfo.lo: /root/SDL2-2.0.9/src/cpuinfo/SDL_cpuinfo.c
+$(objects)/SDL_cpuinfo.lo: /root/SDL-2.0.9-raspberrypi/src/cpuinfo/SDL_cpuinfo.c
 	$(RUN_CMD_CC)$(LIBTOOL) --tag=CC --mode=compile $(CC) $(CFLAGS) $(EXTRA_CFLAGS) -MMD -MT $@ -c $< -o $@
 
-$(objects)/SDL_dynapi.lo: /root/SDL2-2.0.9/src/dynapi/SDL_dynapi.c
+$(objects)/SDL_dynapi.lo: /root/SDL-2.0.9-raspberrypi/src/dynapi/SDL_dynapi.c
 	$(RUN_CMD_CC)$(LIBTOOL) --tag=CC --mode=compile $(CC) $(CFLAGS) $(EXTRA_CFLAGS) -MMD -MT $@ -c $< -o $@
 
-$(objects)/SDL_clipboardevents.lo: /root/SDL2-2.0.9/src/events/SDL_clipboardevents.c
+$(objects)/SDL_clipboardevents.lo: /root/SDL-2.0.9-raspberrypi/src/events/SDL_clipboardevents.c
 	$(RUN_CMD_CC)$(LIBTOOL) --tag=CC --mode=compile $(CC) $(CFLAGS) $(EXTRA_CFLAGS) -MMD -MT $@ -c $< -o $@
 
-$(objects)/SDL_displayevents.lo: /root/SDL2-2.0.9/src/events/SDL_displayevents.c
+$(objects)/SDL_displayevents.lo: /root/SDL-2.0.9-raspberrypi/src/events/SDL_displayevents.c
 	$(RUN_CMD_CC)$(LIBTOOL) --tag=CC --mode=compile $(CC) $(CFLAGS) $(EXTRA_CFLAGS) -MMD -MT $@ -c $< -o $@
 
-$(objects)/SDL_dropevents.lo: /root/SDL2-2.0.9/src/events/SDL_dropevents.c
+$(objects)/SDL_dropevents.lo: /root/SDL-2.0.9-raspberrypi/src/events/SDL_dropevents.c
 	$(RUN_CMD_CC)$(LIBTOOL) --tag=CC --mode=compile $(CC) $(CFLAGS) $(EXTRA_CFLAGS) -MMD -MT $@ -c $< -o $@
 
-$(objects)/SDL_events.lo: /root/SDL2-2.0.9/src/events/SDL_events.c
+$(objects)/SDL_events.lo: /root/SDL-2.0.9-raspberrypi/src/events/SDL_events.c
 	$(RUN_CMD_CC)$(LIBTOOL) --tag=CC --mode=compile $(CC) $(CFLAGS) $(EXTRA_CFLAGS) -MMD -MT $@ -c $< -o $@
 
-$(objects)/SDL_gesture.lo: /root/SDL2-2.0.9/src/events/SDL_gesture.c
+$(objects)/SDL_gesture.lo: /root/SDL-2.0.9-raspberrypi/src/events/SDL_gesture.c
 	$(RUN_CMD_CC)$(LIBTOOL) --tag=CC --mode=compile $(CC) $(CFLAGS) $(EXTRA_CFLAGS) -MMD -MT $@ -c $< -o $@
 
-$(objects)/SDL_keyboard.lo: /root/SDL2-2.0.9/src/events/SDL_keyboard.c
+$(objects)/SDL_keyboard.lo: /root/SDL-2.0.9-raspberrypi/src/events/SDL_keyboard.c
 	$(RUN_CMD_CC)$(LIBTOOL) --tag=CC --mode=compile $(CC) $(CFLAGS) $(EXTRA_CFLAGS) -MMD -MT $@ -c $< -o $@
 
-$(objects)/SDL_mouse.lo: /root/SDL2-2.0.9/src/events/SDL_mouse.c
+$(objects)/SDL_mouse.lo: /root/SDL-2.0.9-raspberrypi/src/events/SDL_mouse.c
 	$(RUN_CMD_CC)$(LIBTOOL) --tag=CC --mode=compile $(CC) $(CFLAGS) $(EXTRA_CFLAGS) -MMD -MT $@ -c $< -o $@
 
-$(objects)/SDL_quit.lo: /root/SDL2-2.0.9/src/events/SDL_quit.c
+$(objects)/SDL_quit.lo: /root/SDL-2.0.9-raspberrypi/src/events/SDL_quit.c
 	$(RUN_CMD_CC)$(LIBTOOL) --tag=CC --mode=compile $(CC) $(CFLAGS) $(EXTRA_CFLAGS) -MMD -MT $@ -c $< -o $@
 
-$(objects)/SDL_touch.lo: /root/SDL2-2.0.9/src/events/SDL_touch.c
+$(objects)/SDL_touch.lo: /root/SDL-2.0.9-raspberrypi/src/events/SDL_touch.c
 	$(RUN_CMD_CC)$(LIBTOOL) --tag=CC --mode=compile $(CC) $(CFLAGS) $(EXTRA_CFLAGS) -MMD -MT $@ -c $< -o $@
 
-$(objects)/SDL_windowevents.lo: /root/SDL2-2.0.9/src/events/SDL_windowevents.c
+$(objects)/SDL_windowevents.lo: /root/SDL-2.0.9-raspberrypi/src/events/SDL_windowevents.c
 	$(RUN_CMD_CC)$(LIBTOOL) --tag=CC --mode=compile $(CC) $(CFLAGS) $(EXTRA_CFLAGS) -MMD -MT $@ -c $< -o $@
 
-$(objects)/SDL_rwops.lo: /root/SDL2-2.0.9/src/file/SDL_rwops.c
+$(objects)/SDL_rwops.lo: /root/SDL-2.0.9-raspberrypi/src/file/SDL_rwops.c
 	$(RUN_CMD_CC)$(LIBTOOL) --tag=CC --mode=compile $(CC) $(CFLAGS) $(EXTRA_CFLAGS) -MMD -MT $@ -c $< -o $@
 
-$(objects)/SDL_haptic.lo: /root/SDL2-2.0.9/src/haptic/SDL_haptic.c
+$(objects)/SDL_haptic.lo: /root/SDL-2.0.9-raspberrypi/src/haptic/SDL_haptic.c
 	$(RUN_CMD_CC)$(LIBTOOL) --tag=CC --mode=compile $(CC) $(CFLAGS) $(EXTRA_CFLAGS) -MMD -MT $@ -c $< -o $@
 
-$(objects)/SDL_gamecontroller.lo: /root/SDL2-2.0.9/src/joystick/SDL_gamecontroller.c
+$(objects)/SDL_gamecontroller.lo: /root/SDL-2.0.9-raspberrypi/src/joystick/SDL_gamecontroller.c
 	$(RUN_CMD_CC)$(LIBTOOL) --tag=CC --mode=compile $(CC) $(CFLAGS) $(EXTRA_CFLAGS) -MMD -MT $@ -c $< -o $@
 
-$(objects)/SDL_joystick.lo: /root/SDL2-2.0.9/src/joystick/SDL_joystick.c
+$(objects)/SDL_joystick.lo: /root/SDL-2.0.9-raspberrypi/src/joystick/SDL_joystick.c
 	$(RUN_CMD_CC)$(LIBTOOL) --tag=CC --mode=compile $(CC) $(CFLAGS) $(EXTRA_CFLAGS) -MMD -MT $@ -c $< -o $@
 
-$(objects)/e_atan2.lo: /root/SDL2-2.0.9/src/libm/e_atan2.c
+$(objects)/e_atan2.lo: /root/SDL-2.0.9-raspberrypi/src/libm/e_atan2.c
 	$(RUN_CMD_CC)$(LIBTOOL) --tag=CC --mode=compile $(CC) $(CFLAGS) $(EXTRA_CFLAGS) -MMD -MT $@ -c $< -o $@
 
-$(objects)/e_exp.lo: /root/SDL2-2.0.9/src/libm/e_exp.c
+$(objects)/e_exp.lo: /root/SDL-2.0.9-raspberrypi/src/libm/e_exp.c
 	$(RUN_CMD_CC)$(LIBTOOL) --tag=CC --mode=compile $(CC) $(CFLAGS) $(EXTRA_CFLAGS) -MMD -MT $@ -c $< -o $@
 
-$(objects)/e_fmod.lo: /root/SDL2-2.0.9/src/libm/e_fmod.c
+$(objects)/e_fmod.lo: /root/SDL-2.0.9-raspberrypi/src/libm/e_fmod.c
 	$(RUN_CMD_CC)$(LIBTOOL) --tag=CC --mode=compile $(CC) $(CFLAGS) $(EXTRA_CFLAGS) -MMD -MT $@ -c $< -o $@
 
-$(objects)/e_log.lo: /root/SDL2-2.0.9/src/libm/e_log.c
+$(objects)/e_log.lo: /root/SDL-2.0.9-raspberrypi/src/libm/e_log.c
 	$(RUN_CMD_CC)$(LIBTOOL) --tag=CC --mode=compile $(CC) $(CFLAGS) $(EXTRA_CFLAGS) -MMD -MT $@ -c $< -o $@
 
-$(objects)/e_log10.lo: /root/SDL2-2.0.9/src/libm/e_log10.c
+$(objects)/e_log10.lo: /root/SDL-2.0.9-raspberrypi/src/libm/e_log10.c
 	$(RUN_CMD_CC)$(LIBTOOL) --tag=CC --mode=compile $(CC) $(CFLAGS) $(EXTRA_CFLAGS) -MMD -MT $@ -c $< -o $@
 
-$(objects)/e_pow.lo: /root/SDL2-2.0.9/src/libm/e_pow.c
+$(objects)/e_pow.lo: /root/SDL-2.0.9-raspberrypi/src/libm/e_pow.c
 	$(RUN_CMD_CC)$(LIBTOOL) --tag=CC --mode=compile $(CC) $(CFLAGS) $(EXTRA_CFLAGS) -MMD -MT $@ -c $< -o $@
 
-$(objects)/e_rem_pio2.lo: /root/SDL2-2.0.9/src/libm/e_rem_pio2.c
+$(objects)/e_rem_pio2.lo: /root/SDL-2.0.9-raspberrypi/src/libm/e_rem_pio2.c
 	$(RUN_CMD_CC)$(LIBTOOL) --tag=CC --mode=compile $(CC) $(CFLAGS) $(EXTRA_CFLAGS) -MMD -MT $@ -c $< -o $@
 
-$(objects)/e_sqrt.lo: /root/SDL2-2.0.9/src/libm/e_sqrt.c
+$(objects)/e_sqrt.lo: /root/SDL-2.0.9-raspberrypi/src/libm/e_sqrt.c
 	$(RUN_CMD_CC)$(LIBTOOL) --tag=CC --mode=compile $(CC) $(CFLAGS) $(EXTRA_CFLAGS) -MMD -MT $@ -c $< -o $@
 
-$(objects)/k_cos.lo: /root/SDL2-2.0.9/src/libm/k_cos.c
+$(objects)/k_cos.lo: /root/SDL-2.0.9-raspberrypi/src/libm/k_cos.c
 	$(RUN_CMD_CC)$(LIBTOOL) --tag=CC --mode=compile $(CC) $(CFLAGS) $(EXTRA_CFLAGS) -MMD -MT $@ -c $< -o $@
 
-$(objects)/k_rem_pio2.lo: /root/SDL2-2.0.9/src/libm/k_rem_pio2.c
+$(objects)/k_rem_pio2.lo: /root/SDL-2.0.9-raspberrypi/src/libm/k_rem_pio2.c
 	$(RUN_CMD_CC)$(LIBTOOL) --tag=CC --mode=compile $(CC) $(CFLAGS) $(EXTRA_CFLAGS) -MMD -MT $@ -c $< -o $@
 
-$(objects)/k_sin.lo: /root/SDL2-2.0.9/src/libm/k_sin.c
+$(objects)/k_sin.lo: /root/SDL-2.0.9-raspberrypi/src/libm/k_sin.c
 	$(RUN_CMD_CC)$(LIBTOOL) --tag=CC --mode=compile $(CC) $(CFLAGS) $(EXTRA_CFLAGS) -MMD -MT $@ -c $< -o $@
 
-$(objects)/k_tan.lo: /root/SDL2-2.0.9/src/libm/k_tan.c
+$(objects)/k_tan.lo: /root/SDL-2.0.9-raspberrypi/src/libm/k_tan.c
 	$(RUN_CMD_CC)$(LIBTOOL) --tag=CC --mode=compile $(CC) $(CFLAGS) $(EXTRA_CFLAGS) -MMD -MT $@ -c $< -o $@
 
-$(objects)/s_atan.lo: /root/SDL2-2.0.9/src/libm/s_atan.c
+$(objects)/s_atan.lo: /root/SDL-2.0.9-raspberrypi/src/libm/s_atan.c
 	$(RUN_CMD_CC)$(LIBTOOL) --tag=CC --mode=compile $(CC) $(CFLAGS) $(EXTRA_CFLAGS) -MMD -MT $@ -c $< -o $@
 
-$(objects)/s_copysign.lo: /root/SDL2-2.0.9/src/libm/s_copysign.c
+$(objects)/s_copysign.lo: /root/SDL-2.0.9-raspberrypi/src/libm/s_copysign.c
 	$(RUN_CMD_CC)$(LIBTOOL) --tag=CC --mode=compile $(CC) $(CFLAGS) $(EXTRA_CFLAGS) -MMD -MT $@ -c $< -o $@
 
-$(objects)/s_cos.lo: /root/SDL2-2.0.9/src/libm/s_cos.c
+$(objects)/s_cos.lo: /root/SDL-2.0.9-raspberrypi/src/libm/s_cos.c
 	$(RUN_CMD_CC)$(LIBTOOL) --tag=CC --mode=compile $(CC) $(CFLAGS) $(EXTRA_CFLAGS) -MMD -MT $@ -c $< -o $@
 
-$(objects)/s_fabs.lo: /root/SDL2-2.0.9/src/libm/s_fabs.c
+$(objects)/s_fabs.lo: /root/SDL-2.0.9-raspberrypi/src/libm/s_fabs.c
 	$(RUN_CMD_CC)$(LIBTOOL) --tag=CC --mode=compile $(CC) $(CFLAGS) $(EXTRA_CFLAGS) -MMD -MT $@ -c $< -o $@
 
-$(objects)/s_floor.lo: /root/SDL2-2.0.9/src/libm/s_floor.c
+$(objects)/s_floor.lo: /root/SDL-2.0.9-raspberrypi/src/libm/s_floor.c
 	$(RUN_CMD_CC)$(LIBTOOL) --tag=CC --mode=compile $(CC) $(CFLAGS) $(EXTRA_CFLAGS) -MMD -MT $@ -c $< -o $@
 
-$(objects)/s_scalbn.lo: /root/SDL2-2.0.9/src/libm/s_scalbn.c
+$(objects)/s_scalbn.lo: /root/SDL-2.0.9-raspberrypi/src/libm/s_scalbn.c
 	$(RUN_CMD_CC)$(LIBTOOL) --tag=CC --mode=compile $(CC) $(CFLAGS) $(EXTRA_CFLAGS) -MMD -MT $@ -c $< -o $@
 
-$(objects)/s_sin.lo: /root/SDL2-2.0.9/src/libm/s_sin.c
+$(objects)/s_sin.lo: /root/SDL-2.0.9-raspberrypi/src/libm/s_sin.c
 	$(RUN_CMD_CC)$(LIBTOOL) --tag=CC --mode=compile $(CC) $(CFLAGS) $(EXTRA_CFLAGS) -MMD -MT $@ -c $< -o $@
 
-$(objects)/s_tan.lo: /root/SDL2-2.0.9/src/libm/s_tan.c
+$(objects)/s_tan.lo: /root/SDL-2.0.9-raspberrypi/src/libm/s_tan.c
 	$(RUN_CMD_CC)$(LIBTOOL) --tag=CC --mode=compile $(CC) $(CFLAGS) $(EXTRA_CFLAGS) -MMD -MT $@ -c $< -o $@
 
-$(objects)/SDL_power.lo: /root/SDL2-2.0.9/src/power/SDL_power.c
+$(objects)/SDL_power.lo: /root/SDL-2.0.9-raspberrypi/src/power/SDL_power.c
 	$(RUN_CMD_CC)$(LIBTOOL) --tag=CC --mode=compile $(CC) $(CFLAGS) $(EXTRA_CFLAGS) -MMD -MT $@ -c $< -o $@
 
-$(objects)/SDL_d3dmath.lo: /root/SDL2-2.0.9/src/render/SDL_d3dmath.c
+$(objects)/SDL_d3dmath.lo: /root/SDL-2.0.9-raspberrypi/src/render/SDL_d3dmath.c
 	$(RUN_CMD_CC)$(LIBTOOL) --tag=CC --mode=compile $(CC) $(CFLAGS) $(EXTRA_CFLAGS) -MMD -MT $@ -c $< -o $@
 
-$(objects)/SDL_render.lo: /root/SDL2-2.0.9/src/render/SDL_render.c
+$(objects)/SDL_render.lo: /root/SDL-2.0.9-raspberrypi/src/render/SDL_render.c
 	$(RUN_CMD_CC)$(LIBTOOL) --tag=CC --mode=compile $(CC) $(CFLAGS) $(EXTRA_CFLAGS) -MMD -MT $@ -c $< -o $@
 
-$(objects)/SDL_yuv_sw.lo: /root/SDL2-2.0.9/src/render/SDL_yuv_sw.c
+$(objects)/SDL_yuv_sw.lo: /root/SDL-2.0.9-raspberrypi/src/render/SDL_yuv_sw.c
 	$(RUN_CMD_CC)$(LIBTOOL) --tag=CC --mode=compile $(CC) $(CFLAGS) $(EXTRA_CFLAGS) -MMD -MT $@ -c $< -o $@
 
-$(objects)/SDL_render_d3d.lo: /root/SDL2-2.0.9/src/render/direct3d/SDL_render_d3d.c
+$(objects)/SDL_render_d3d.lo: /root/SDL-2.0.9-raspberrypi/src/render/direct3d/SDL_render_d3d.c
 	$(RUN_CMD_CC)$(LIBTOOL) --tag=CC --mode=compile $(CC) $(CFLAGS) $(EXTRA_CFLAGS) -MMD -MT $@ -c $< -o $@
 
-$(objects)/SDL_shaders_d3d.lo: /root/SDL2-2.0.9/src/render/direct3d/SDL_shaders_d3d.c
+$(objects)/SDL_shaders_d3d.lo: /root/SDL-2.0.9-raspberrypi/src/render/direct3d/SDL_shaders_d3d.c
 	$(RUN_CMD_CC)$(LIBTOOL) --tag=CC --mode=compile $(CC) $(CFLAGS) $(EXTRA_CFLAGS) -MMD -MT $@ -c $< -o $@
 
-$(objects)/SDL_render_d3d11.lo: /root/SDL2-2.0.9/src/render/direct3d11/SDL_render_d3d11.c
+$(objects)/SDL_render_d3d11.lo: /root/SDL-2.0.9-raspberrypi/src/render/direct3d11/SDL_render_d3d11.c
 	$(RUN_CMD_CC)$(LIBTOOL) --tag=CC --mode=compile $(CC) $(CFLAGS) $(EXTRA_CFLAGS) -MMD -MT $@ -c $< -o $@
 
-$(objects)/SDL_shaders_d3d11.lo: /root/SDL2-2.0.9/src/render/direct3d11/SDL_shaders_d3d11.c
+$(objects)/SDL_shaders_d3d11.lo: /root/SDL-2.0.9-raspberrypi/src/render/direct3d11/SDL_shaders_d3d11.c
 	$(RUN_CMD_CC)$(LIBTOOL) --tag=CC --mode=compile $(CC) $(CFLAGS) $(EXTRA_CFLAGS) -MMD -MT $@ -c $< -o $@
 
-$(objects)/SDL_render_gl.lo: /root/SDL2-2.0.9/src/render/opengl/SDL_render_gl.c
+$(objects)/SDL_render_gl.lo: /root/SDL-2.0.9-raspberrypi/src/render/opengl/SDL_render_gl.c
 	$(RUN_CMD_CC)$(LIBTOOL) --tag=CC --mode=compile $(CC) $(CFLAGS) $(EXTRA_CFLAGS) -MMD -MT $@ -c $< -o $@
 
-$(objects)/SDL_shaders_gl.lo: /root/SDL2-2.0.9/src/render/opengl/SDL_shaders_gl.c
+$(objects)/SDL_shaders_gl.lo: /root/SDL-2.0.9-raspberrypi/src/render/opengl/SDL_shaders_gl.c
 	$(RUN_CMD_CC)$(LIBTOOL) --tag=CC --mode=compile $(CC) $(CFLAGS) $(EXTRA_CFLAGS) -MMD -MT $@ -c $< -o $@
 
-$(objects)/SDL_render_gles.lo: /root/SDL2-2.0.9/src/render/opengles/SDL_render_gles.c
+$(objects)/SDL_render_gles.lo: /root/SDL-2.0.9-raspberrypi/src/render/opengles/SDL_render_gles.c
 	$(RUN_CMD_CC)$(LIBTOOL) --tag=CC --mode=compile $(CC) $(CFLAGS) $(EXTRA_CFLAGS) -MMD -MT $@ -c $< -o $@
 
-$(objects)/SDL_render_gles2.lo: /root/SDL2-2.0.9/src/render/opengles2/SDL_render_gles2.c
+$(objects)/SDL_render_gles2.lo: /root/SDL-2.0.9-raspberrypi/src/render/opengles2/SDL_render_gles2.c
 	$(RUN_CMD_CC)$(LIBTOOL) --tag=CC --mode=compile $(CC) $(CFLAGS) $(EXTRA_CFLAGS) -MMD -MT $@ -c $< -o $@
 
-$(objects)/SDL_shaders_gles2.lo: /root/SDL2-2.0.9/src/render/opengles2/SDL_shaders_gles2.c
+$(objects)/SDL_shaders_gles2.lo: /root/SDL-2.0.9-raspberrypi/src/render/opengles2/SDL_shaders_gles2.c
 	$(RUN_CMD_CC)$(LIBTOOL) --tag=CC --mode=compile $(CC) $(CFLAGS) $(EXTRA_CFLAGS) -MMD -MT $@ -c $< -o $@
 
-$(objects)/SDL_render_psp.lo: /root/SDL2-2.0.9/src/render/psp/SDL_render_psp.c
+$(objects)/SDL_render_psp.lo: /root/SDL-2.0.9-raspberrypi/src/render/psp/SDL_render_psp.c
 	$(RUN_CMD_CC)$(LIBTOOL) --tag=CC --mode=compile $(CC) $(CFLAGS) $(EXTRA_CFLAGS) -MMD -MT $@ -c $< -o $@
 
-$(objects)/SDL_blendfillrect.lo: /root/SDL2-2.0.9/src/render/software/SDL_blendfillrect.c
+$(objects)/SDL_blendfillrect.lo: /root/SDL-2.0.9-raspberrypi/src/render/software/SDL_blendfillrect.c
 	$(RUN_CMD_CC)$(LIBTOOL) --tag=CC --mode=compile $(CC) $(CFLAGS) $(EXTRA_CFLAGS) -MMD -MT $@ -c $< -o $@
 
-$(objects)/SDL_blendline.lo: /root/SDL2-2.0.9/src/render/software/SDL_blendline.c
+$(objects)/SDL_blendline.lo: /root/SDL-2.0.9-raspberrypi/src/render/software/SDL_blendline.c
 	$(RUN_CMD_CC)$(LIBTOOL) --tag=CC --mode=compile $(CC) $(CFLAGS) $(EXTRA_CFLAGS) -MMD -MT $@ -c $< -o $@
 
-$(objects)/SDL_blendpoint.lo: /root/SDL2-2.0.9/src/render/software/SDL_blendpoint.c
+$(objects)/SDL_blendpoint.lo: /root/SDL-2.0.9-raspberrypi/src/render/software/SDL_blendpoint.c
 	$(RUN_CMD_CC)$(LIBTOOL) --tag=CC --mode=compile $(CC) $(CFLAGS) $(EXTRA_CFLAGS) -MMD -MT $@ -c $< -o $@
 
-$(objects)/SDL_drawline.lo: /root/SDL2-2.0.9/src/render/software/SDL_drawline.c
+$(objects)/SDL_drawline.lo: /root/SDL-2.0.9-raspberrypi/src/render/software/SDL_drawline.c
 	$(RUN_CMD_CC)$(LIBTOOL) --tag=CC --mode=compile $(CC) $(CFLAGS) $(EXTRA_CFLAGS) -MMD -MT $@ -c $< -o $@
 
-$(objects)/SDL_drawpoint.lo: /root/SDL2-2.0.9/src/render/software/SDL_drawpoint.c
+$(objects)/SDL_drawpoint.lo: /root/SDL-2.0.9-raspberrypi/src/render/software/SDL_drawpoint.c
 	$(RUN_CMD_CC)$(LIBTOOL) --tag=CC --mode=compile $(CC) $(CFLAGS) $(EXTRA_CFLAGS) -MMD -MT $@ -c $< -o $@
 
-$(objects)/SDL_render_sw.lo: /root/SDL2-2.0.9/src/render/software/SDL_render_sw.c
+$(objects)/SDL_render_sw.lo: /root/SDL-2.0.9-raspberrypi/src/render/software/SDL_render_sw.c
 	$(RUN_CMD_CC)$(LIBTOOL) --tag=CC --mode=compile $(CC) $(CFLAGS) $(EXTRA_CFLAGS) -MMD -MT $@ -c $< -o $@
 
-$(objects)/SDL_rotate.lo: /root/SDL2-2.0.9/src/render/software/SDL_rotate.c
+$(objects)/SDL_rotate.lo: /root/SDL-2.0.9-raspberrypi/src/render/software/SDL_rotate.c
 	$(RUN_CMD_CC)$(LIBTOOL) --tag=CC --mode=compile $(CC) $(CFLAGS) $(EXTRA_CFLAGS) -MMD -MT $@ -c $< -o $@
 
-$(objects)/SDL_sensor.lo: /root/SDL2-2.0.9/src/sensor/SDL_sensor.c
+$(objects)/SDL_sensor.lo: /root/SDL-2.0.9-raspberrypi/src/sensor/SDL_sensor.c
 	$(RUN_CMD_CC)$(LIBTOOL) --tag=CC --mode=compile $(CC) $(CFLAGS) $(EXTRA_CFLAGS) -MMD -MT $@ -c $< -o $@
 
-$(objects)/SDL_getenv.lo: /root/SDL2-2.0.9/src/stdlib/SDL_getenv.c
+$(objects)/SDL_getenv.lo: /root/SDL-2.0.9-raspberrypi/src/stdlib/SDL_getenv.c
 	$(RUN_CMD_CC)$(LIBTOOL) --tag=CC --mode=compile $(CC) $(CFLAGS) $(EXTRA_CFLAGS) -MMD -MT $@ -c $< -o $@
 
-$(objects)/SDL_iconv.lo: /root/SDL2-2.0.9/src/stdlib/SDL_iconv.c
+$(objects)/SDL_iconv.lo: /root/SDL-2.0.9-raspberrypi/src/stdlib/SDL_iconv.c
 	$(RUN_CMD_CC)$(LIBTOOL) --tag=CC --mode=compile $(CC) $(CFLAGS) $(EXTRA_CFLAGS) -MMD -MT $@ -c $< -o $@
 
-$(objects)/SDL_malloc.lo: /root/SDL2-2.0.9/src/stdlib/SDL_malloc.c
+$(objects)/SDL_malloc.lo: /root/SDL-2.0.9-raspberrypi/src/stdlib/SDL_malloc.c
 	$(RUN_CMD_CC)$(LIBTOOL) --tag=CC --mode=compile $(CC) $(CFLAGS) $(EXTRA_CFLAGS) -MMD -MT $@ -c $< -o $@
 
-$(objects)/SDL_qsort.lo: /root/SDL2-2.0.9/src/stdlib/SDL_qsort.c
+$(objects)/SDL_qsort.lo: /root/SDL-2.0.9-raspberrypi/src/stdlib/SDL_qsort.c
 	$(RUN_CMD_CC)$(LIBTOOL) --tag=CC --mode=compile $(CC) $(CFLAGS) $(EXTRA_CFLAGS) -MMD -MT $@ -c $< -o $@
 
-$(objects)/SDL_stdlib.lo: /root/SDL2-2.0.9/src/stdlib/SDL_stdlib.c
+$(objects)/SDL_stdlib.lo: /root/SDL-2.0.9-raspberrypi/src/stdlib/SDL_stdlib.c
 	$(RUN_CMD_CC)$(LIBTOOL) --tag=CC --mode=compile $(CC) $(CFLAGS) $(EXTRA_CFLAGS) -MMD -MT $@ -c $< -o $@
 
-$(objects)/SDL_string.lo: /root/SDL2-2.0.9/src/stdlib/SDL_string.c
+$(objects)/SDL_string.lo: /root/SDL-2.0.9-raspberrypi/src/stdlib/SDL_string.c
 	$(RUN_CMD_CC)$(LIBTOOL) --tag=CC --mode=compile $(CC) $(CFLAGS) $(EXTRA_CFLAGS) -MMD -MT $@ -c $< -o $@
 
-$(objects)/SDL_thread.lo: /root/SDL2-2.0.9/src/thread/SDL_thread.c
+$(objects)/SDL_thread.lo: /root/SDL-2.0.9-raspberrypi/src/thread/SDL_thread.c
 	$(RUN_CMD_CC)$(LIBTOOL) --tag=CC --mode=compile $(CC) $(CFLAGS) $(EXTRA_CFLAGS) -MMD -MT $@ -c $< -o $@
 
-$(objects)/SDL_timer.lo: /root/SDL2-2.0.9/src/timer/SDL_timer.c
+$(objects)/SDL_timer.lo: /root/SDL-2.0.9-raspberrypi/src/timer/SDL_timer.c
 	$(RUN_CMD_CC)$(LIBTOOL) --tag=CC --mode=compile $(CC) $(CFLAGS) $(EXTRA_CFLAGS) -MMD -MT $@ -c $< -o $@
 
-$(objects)/SDL_RLEaccel.lo: /root/SDL2-2.0.9/src/video/SDL_RLEaccel.c
+$(objects)/SDL_RLEaccel.lo: /root/SDL-2.0.9-raspberrypi/src/video/SDL_RLEaccel.c
 	$(RUN_CMD_CC)$(LIBTOOL) --tag=CC --mode=compile $(CC) $(CFLAGS) $(EXTRA_CFLAGS) -MMD -MT $@ -c $< -o $@
 
-$(objects)/SDL_blit.lo: /root/SDL2-2.0.9/src/video/SDL_blit.c
+$(objects)/SDL_blit.lo: /root/SDL-2.0.9-raspberrypi/src/video/SDL_blit.c
 	$(RUN_CMD_CC)$(LIBTOOL) --tag=CC --mode=compile $(CC) $(CFLAGS) $(EXTRA_CFLAGS) -MMD -MT $@ -c $< -o $@
 
-$(objects)/SDL_blit_0.lo: /root/SDL2-2.0.9/src/video/SDL_blit_0.c
+$(objects)/SDL_blit_0.lo: /root/SDL-2.0.9-raspberrypi/src/video/SDL_blit_0.c
 	$(RUN_CMD_CC)$(LIBTOOL) --tag=CC --mode=compile $(CC) $(CFLAGS) $(EXTRA_CFLAGS) -MMD -MT $@ -c $< -o $@
 
-$(objects)/SDL_blit_1.lo: /root/SDL2-2.0.9/src/video/SDL_blit_1.c
+$(objects)/SDL_blit_1.lo: /root/SDL-2.0.9-raspberrypi/src/video/SDL_blit_1.c
 	$(RUN_CMD_CC)$(LIBTOOL) --tag=CC --mode=compile $(CC) $(CFLAGS) $(EXTRA_CFLAGS) -MMD -MT $@ -c $< -o $@
 
-$(objects)/SDL_blit_A.lo: /root/SDL2-2.0.9/src/video/SDL_blit_A.c
+$(objects)/SDL_blit_A.lo: /root/SDL-2.0.9-raspberrypi/src/video/SDL_blit_A.c
 	$(RUN_CMD_CC)$(LIBTOOL) --tag=CC --mode=compile $(CC) $(CFLAGS) $(EXTRA_CFLAGS) -MMD -MT $@ -c $< -o $@
 
-$(objects)/SDL_blit_N.lo: /root/SDL2-2.0.9/src/video/SDL_blit_N.c
+$(objects)/SDL_blit_N.lo: /root/SDL-2.0.9-raspberrypi/src/video/SDL_blit_N.c
 	$(RUN_CMD_CC)$(LIBTOOL) --tag=CC --mode=compile $(CC) $(CFLAGS) $(EXTRA_CFLAGS) -MMD -MT $@ -c $< -o $@
 
-$(objects)/SDL_blit_auto.lo: /root/SDL2-2.0.9/src/video/SDL_blit_auto.c
+$(objects)/SDL_blit_auto.lo: /root/SDL-2.0.9-raspberrypi/src/video/SDL_blit_auto.c
 	$(RUN_CMD_CC)$(LIBTOOL) --tag=CC --mode=compile $(CC) $(CFLAGS) $(EXTRA_CFLAGS) -MMD -MT $@ -c $< -o $@
 
-$(objects)/SDL_blit_copy.lo: /root/SDL2-2.0.9/src/video/SDL_blit_copy.c
+$(objects)/SDL_blit_copy.lo: /root/SDL-2.0.9-raspberrypi/src/video/SDL_blit_copy.c
 	$(RUN_CMD_CC)$(LIBTOOL) --tag=CC --mode=compile $(CC) $(CFLAGS) $(EXTRA_CFLAGS) -MMD -MT $@ -c $< -o $@
 
-$(objects)/SDL_blit_slow.lo: /root/SDL2-2.0.9/src/video/SDL_blit_slow.c
+$(objects)/SDL_blit_slow.lo: /root/SDL-2.0.9-raspberrypi/src/video/SDL_blit_slow.c
 	$(RUN_CMD_CC)$(LIBTOOL) --tag=CC --mode=compile $(CC) $(CFLAGS) $(EXTRA_CFLAGS) -MMD -MT $@ -c $< -o $@
 
-$(objects)/SDL_bmp.lo: /root/SDL2-2.0.9/src/video/SDL_bmp.c
+$(objects)/SDL_bmp.lo: /root/SDL-2.0.9-raspberrypi/src/video/SDL_bmp.c
 	$(RUN_CMD_CC)$(LIBTOOL) --tag=CC --mode=compile $(CC) $(CFLAGS) $(EXTRA_CFLAGS) -MMD -MT $@ -c $< -o $@
 
-$(objects)/SDL_clipboard.lo: /root/SDL2-2.0.9/src/video/SDL_clipboard.c
+$(objects)/SDL_clipboard.lo: /root/SDL-2.0.9-raspberrypi/src/video/SDL_clipboard.c
 	$(RUN_CMD_CC)$(LIBTOOL) --tag=CC --mode=compile $(CC) $(CFLAGS) $(EXTRA_CFLAGS) -MMD -MT $@ -c $< -o $@
 
-$(objects)/SDL_egl.lo: /root/SDL2-2.0.9/src/video/SDL_egl.c
+$(objects)/SDL_egl.lo: /root/SDL-2.0.9-raspberrypi/src/video/SDL_egl.c
 	$(RUN_CMD_CC)$(LIBTOOL) --tag=CC --mode=compile $(CC) $(CFLAGS) $(EXTRA_CFLAGS) -MMD -MT $@ -c $< -o $@
 
-$(objects)/SDL_fillrect.lo: /root/SDL2-2.0.9/src/video/SDL_fillrect.c
+$(objects)/SDL_fillrect.lo: /root/SDL-2.0.9-raspberrypi/src/video/SDL_fillrect.c
 	$(RUN_CMD_CC)$(LIBTOOL) --tag=CC --mode=compile $(CC) $(CFLAGS) $(EXTRA_CFLAGS) -MMD -MT $@ -c $< -o $@
 
-$(objects)/SDL_pixels.lo: /root/SDL2-2.0.9/src/video/SDL_pixels.c
+$(objects)/SDL_pixels.lo: /root/SDL-2.0.9-raspberrypi/src/video/SDL_pixels.c
 	$(RUN_CMD_CC)$(LIBTOOL) --tag=CC --mode=compile $(CC) $(CFLAGS) $(EXTRA_CFLAGS) -MMD -MT $@ -c $< -o $@
 
-$(objects)/SDL_rect.lo: /root/SDL2-2.0.9/src/video/SDL_rect.c
+$(objects)/SDL_rect.lo: /root/SDL-2.0.9-raspberrypi/src/video/SDL_rect.c
 	$(RUN_CMD_CC)$(LIBTOOL) --tag=CC --mode=compile $(CC) $(CFLAGS) $(EXTRA_CFLAGS) -MMD -MT $@ -c $< -o $@
 
-$(objects)/SDL_shape.lo: /root/SDL2-2.0.9/src/video/SDL_shape.c
+$(objects)/SDL_shape.lo: /root/SDL-2.0.9-raspberrypi/src/video/SDL_shape.c
 	$(RUN_CMD_CC)$(LIBTOOL) --tag=CC --mode=compile $(CC) $(CFLAGS) $(EXTRA_CFLAGS) -MMD -MT $@ -c $< -o $@
 
-$(objects)/SDL_stretch.lo: /root/SDL2-2.0.9/src/video/SDL_stretch.c
+$(objects)/SDL_stretch.lo: /root/SDL-2.0.9-raspberrypi/src/video/SDL_stretch.c
 	$(RUN_CMD_CC)$(LIBTOOL) --tag=CC --mode=compile $(CC) $(CFLAGS) $(EXTRA_CFLAGS) -MMD -MT $@ -c $< -o $@
 
-$(objects)/SDL_surface.lo: /root/SDL2-2.0.9/src/video/SDL_surface.c
+$(objects)/SDL_surface.lo: /root/SDL-2.0.9-raspberrypi/src/video/SDL_surface.c
 	$(RUN_CMD_CC)$(LIBTOOL) --tag=CC --mode=compile $(CC) $(CFLAGS) $(EXTRA_CFLAGS) -MMD -MT $@ -c $< -o $@
 
-$(objects)/SDL_video.lo: /root/SDL2-2.0.9/src/video/SDL_video.c
+$(objects)/SDL_video.lo: /root/SDL-2.0.9-raspberrypi/src/video/SDL_video.c
 	$(RUN_CMD_CC)$(LIBTOOL) --tag=CC --mode=compile $(CC) $(CFLAGS) $(EXTRA_CFLAGS) -MMD -MT $@ -c $< -o $@
 
-$(objects)/SDL_vulkan_utils.lo: /root/SDL2-2.0.9/src/video/SDL_vulkan_utils.c
+$(objects)/SDL_vulkan_utils.lo: /root/SDL-2.0.9-raspberrypi/src/video/SDL_vulkan_utils.c
 	$(RUN_CMD_CC)$(LIBTOOL) --tag=CC --mode=compile $(CC) $(CFLAGS) $(EXTRA_CFLAGS) -MMD -MT $@ -c $< -o $@
 
-$(objects)/SDL_yuv.lo: /root/SDL2-2.0.9/src/video/SDL_yuv.c
+$(objects)/SDL_yuv.lo: /root/SDL-2.0.9-raspberrypi/src/video/SDL_yuv.c
 	$(RUN_CMD_CC)$(LIBTOOL) --tag=CC --mode=compile $(CC) $(CFLAGS) $(EXTRA_CFLAGS) -MMD -MT $@ -c $< -o $@
 
-$(objects)/yuv_rgb.lo: /root/SDL2-2.0.9/src/video/yuv2rgb/yuv_rgb.c
+$(objects)/yuv_rgb.lo: /root/SDL-2.0.9-raspberrypi/src/video/yuv2rgb/yuv_rgb.c
 	$(RUN_CMD_CC)$(LIBTOOL) --tag=CC --mode=compile $(CC) $(CFLAGS) $(EXTRA_CFLAGS) -MMD -MT $@ -c $< -o $@
 
-$(objects)/SDL_nullevents.lo: /root/SDL2-2.0.9/src/video/dummy/SDL_nullevents.c
+$(objects)/SDL_nullevents.lo: /root/SDL-2.0.9-raspberrypi/src/video/dummy/SDL_nullevents.c
 	$(RUN_CMD_CC)$(LIBTOOL) --tag=CC --mode=compile $(CC) $(CFLAGS) $(EXTRA_CFLAGS) -MMD -MT $@ -c $< -o $@
 
-$(objects)/SDL_nullframebuffer.lo: /root/SDL2-2.0.9/src/video/dummy/SDL_nullframebuffer.c
+$(objects)/SDL_nullframebuffer.lo: /root/SDL-2.0.9-raspberrypi/src/video/dummy/SDL_nullframebuffer.c
 	$(RUN_CMD_CC)$(LIBTOOL) --tag=CC --mode=compile $(CC) $(CFLAGS) $(EXTRA_CFLAGS) -MMD -MT $@ -c $< -o $@
 
-$(objects)/SDL_nullvideo.lo: /root/SDL2-2.0.9/src/video/dummy/SDL_nullvideo.c
+$(objects)/SDL_nullvideo.lo: /root/SDL-2.0.9-raspberrypi/src/video/dummy/SDL_nullvideo.c
 	$(RUN_CMD_CC)$(LIBTOOL) --tag=CC --mode=compile $(CC) $(CFLAGS) $(EXTRA_CFLAGS) -MMD -MT $@ -c $< -o $@
 
-$(objects)/SDL_diskaudio.lo: /root/SDL2-2.0.9/src/audio/disk/SDL_diskaudio.c
+$(objects)/SDL_diskaudio.lo: /root/SDL-2.0.9-raspberrypi/src/audio/disk/SDL_diskaudio.c
 	$(RUN_CMD_CC)$(LIBTOOL) --tag=CC --mode=compile $(CC) $(CFLAGS) $(EXTRA_CFLAGS) -MMD -MT $@ -c $< -o $@
 
-$(objects)/SDL_dummyaudio.lo: /root/SDL2-2.0.9/src/audio/dummy/SDL_dummyaudio.c
+$(objects)/SDL_dummyaudio.lo: /root/SDL-2.0.9-raspberrypi/src/audio/dummy/SDL_dummyaudio.c
 	$(RUN_CMD_CC)$(LIBTOOL) --tag=CC --mode=compile $(CC) $(CFLAGS) $(EXTRA_CFLAGS) -MMD -MT $@ -c $< -o $@
 
-$(objects)/SDL_sysloadso.lo: /root/SDL2-2.0.9/src/loadso/dlopen/SDL_sysloadso.c
+$(objects)/SDL_sysloadso.lo: /root/SDL-2.0.9-raspberrypi/src/loadso/dlopen/SDL_sysloadso.c
 	$(RUN_CMD_CC)$(LIBTOOL) --tag=CC --mode=compile $(CC) $(CFLAGS) $(EXTRA_CFLAGS) -MMD -MT $@ -c $< -o $@
 
-$(objects)/SDL_dspaudio.lo: /root/SDL2-2.0.9/src/audio/dsp/SDL_dspaudio.c
+$(objects)/SDL_dspaudio.lo: /root/SDL-2.0.9-raspberrypi/src/audio/dsp/SDL_dspaudio.c
 	$(RUN_CMD_CC)$(LIBTOOL) --tag=CC --mode=compile $(CC) $(CFLAGS) $(EXTRA_CFLAGS) -MMD -MT $@ -c $< -o $@
 
-$(objects)/SDL_alsa_audio.lo: /root/SDL2-2.0.9/src/audio/alsa/SDL_alsa_audio.c
+$(objects)/SDL_alsa_audio.lo: /root/SDL-2.0.9-raspberrypi/src/audio/alsa/SDL_alsa_audio.c
 	$(RUN_CMD_CC)$(LIBTOOL) --tag=CC --mode=compile $(CC) $(CFLAGS) $(EXTRA_CFLAGS) -MMD -MT $@ -c $< -o $@
 
-$(objects)/SDL_nasaudio.lo: /root/SDL2-2.0.9/src/audio/nas/SDL_nasaudio.c
+$(objects)/SDL_nasaudio.lo: /root/SDL-2.0.9-raspberrypi/src/audio/nas/SDL_nasaudio.c
 	$(RUN_CMD_CC)$(LIBTOOL) --tag=CC --mode=compile $(CC) $(CFLAGS) $(EXTRA_CFLAGS) -MMD -MT $@ -c $< -o $@
 
-$(objects)/SDL_sndioaudio.lo: /root/SDL2-2.0.9/src/audio/sndio/SDL_sndioaudio.c
+$(objects)/SDL_sndioaudio.lo: /root/SDL-2.0.9-raspberrypi/src/audio/sndio/SDL_sndioaudio.c
 	$(RUN_CMD_CC)$(LIBTOOL) --tag=CC --mode=compile $(CC) $(CFLAGS) $(EXTRA_CFLAGS) -MMD -MT $@ -c $< -o $@
 
-$(objects)/SDL_rpievents.lo: /root/SDL2-2.0.9/src/video/raspberry/SDL_rpievents.c
+$(objects)/SDL_rpievents.lo: /root/SDL-2.0.9-raspberrypi/src/video/raspberry/SDL_rpievents.c
 	$(RUN_CMD_CC)$(LIBTOOL) --tag=CC --mode=compile $(CC) $(CFLAGS) $(EXTRA_CFLAGS) -MMD -MT $@ -c $< -o $@
 
-$(objects)/SDL_rpimouse.lo: /root/SDL2-2.0.9/src/video/raspberry/SDL_rpimouse.c
+$(objects)/SDL_rpimouse.lo: /root/SDL-2.0.9-raspberrypi/src/video/raspberry/SDL_rpimouse.c
 	$(RUN_CMD_CC)$(LIBTOOL) --tag=CC --mode=compile $(CC) $(CFLAGS) $(EXTRA_CFLAGS) -MMD -MT $@ -c $< -o $@
 
-$(objects)/SDL_rpiopengles.lo: /root/SDL2-2.0.9/src/video/raspberry/SDL_rpiopengles.c
+$(objects)/SDL_rpiopengles.lo: /root/SDL-2.0.9-raspberrypi/src/video/raspberry/SDL_rpiopengles.c
 	$(RUN_CMD_CC)$(LIBTOOL) --tag=CC --mode=compile $(CC) $(CFLAGS) $(EXTRA_CFLAGS) -MMD -MT $@ -c $< -o $@
 
-$(objects)/SDL_rpivideo.lo: /root/SDL2-2.0.9/src/video/raspberry/SDL_rpivideo.c
+$(objects)/SDL_rpivideo.lo: /root/SDL-2.0.9-raspberrypi/src/video/raspberry/SDL_rpivideo.c
 	$(RUN_CMD_CC)$(LIBTOOL) --tag=CC --mode=compile $(CC) $(CFLAGS) $(EXTRA_CFLAGS) -MMD -MT $@ -c $< -o $@
 
-$(objects)/SDL_dbus.lo: /root/SDL2-2.0.9/src/core/linux/SDL_dbus.c
+$(objects)/SDL_dbus.lo: /root/SDL-2.0.9-raspberrypi/src/core/linux/SDL_dbus.c
 	$(RUN_CMD_CC)$(LIBTOOL) --tag=CC --mode=compile $(CC) $(CFLAGS) $(EXTRA_CFLAGS) -MMD -MT $@ -c $< -o $@
 
-$(objects)/SDL_ime.lo: /root/SDL2-2.0.9/src/core/linux/SDL_ime.c
+$(objects)/SDL_ime.lo: /root/SDL-2.0.9-raspberrypi/src/core/linux/SDL_ime.c
 	$(RUN_CMD_CC)$(LIBTOOL) --tag=CC --mode=compile $(CC) $(CFLAGS) $(EXTRA_CFLAGS) -MMD -MT $@ -c $< -o $@
 
-$(objects)/SDL_ibus.lo: /root/SDL2-2.0.9/src/core/linux/SDL_ibus.c
+$(objects)/SDL_ibus.lo: /root/SDL-2.0.9-raspberrypi/src/core/linux/SDL_ibus.c
 	$(RUN_CMD_CC)$(LIBTOOL) --tag=CC --mode=compile $(CC) $(CFLAGS) $(EXTRA_CFLAGS) -MMD -MT $@ -c $< -o $@
 
-$(objects)/SDL_systhread.lo: /root/SDL2-2.0.9/src/thread/pthread/SDL_systhread.c
+$(objects)/SDL_systhread.lo: /root/SDL-2.0.9-raspberrypi/src/thread/pthread/SDL_systhread.c
 	$(RUN_CMD_CC)$(LIBTOOL) --tag=CC --mode=compile $(CC) $(CFLAGS) $(EXTRA_CFLAGS) -MMD -MT $@ -c $< -o $@
 
-$(objects)/SDL_syssem.lo: /root/SDL2-2.0.9/src/thread/pthread/SDL_syssem.c
+$(objects)/SDL_syssem.lo: /root/SDL-2.0.9-raspberrypi/src/thread/pthread/SDL_syssem.c
 	$(RUN_CMD_CC)$(LIBTOOL) --tag=CC --mode=compile $(CC) $(CFLAGS) $(EXTRA_CFLAGS) -MMD -MT $@ -c $< -o $@
 
-$(objects)/SDL_sysmutex.lo: /root/SDL2-2.0.9/src/thread/pthread/SDL_sysmutex.c
+$(objects)/SDL_sysmutex.lo: /root/SDL-2.0.9-raspberrypi/src/thread/pthread/SDL_sysmutex.c
 	$(RUN_CMD_CC)$(LIBTOOL) --tag=CC --mode=compile $(CC) $(CFLAGS) $(EXTRA_CFLAGS) -MMD -MT $@ -c $< -o $@
 
-$(objects)/SDL_syscond.lo: /root/SDL2-2.0.9/src/thread/pthread/SDL_syscond.c
+$(objects)/SDL_syscond.lo: /root/SDL-2.0.9-raspberrypi/src/thread/pthread/SDL_syscond.c
 	$(RUN_CMD_CC)$(LIBTOOL) --tag=CC --mode=compile $(CC) $(CFLAGS) $(EXTRA_CFLAGS) -MMD -MT $@ -c $< -o $@
 
-$(objects)/SDL_systls.lo: /root/SDL2-2.0.9/src/thread/pthread/SDL_systls.c
+$(objects)/SDL_systls.lo: /root/SDL-2.0.9-raspberrypi/src/thread/pthread/SDL_systls.c
 	$(RUN_CMD_CC)$(LIBTOOL) --tag=CC --mode=compile $(CC) $(CFLAGS) $(EXTRA_CFLAGS) -MMD -MT $@ -c $< -o $@
 
-$(objects)/SDL_sysjoystick.lo: /root/SDL2-2.0.9/src/joystick/linux/SDL_sysjoystick.c
+$(objects)/SDL_sysjoystick.lo: /root/SDL-2.0.9-raspberrypi/src/joystick/linux/SDL_sysjoystick.c
 	$(RUN_CMD_CC)$(LIBTOOL) --tag=CC --mode=compile $(CC) $(CFLAGS) $(EXTRA_CFLAGS) -MMD -MT $@ -c $< -o $@
 
-$(objects)/SDL_steamcontroller.lo: /root/SDL2-2.0.9/src/joystick/steam/SDL_steamcontroller.c
+$(objects)/SDL_steamcontroller.lo: /root/SDL-2.0.9-raspberrypi/src/joystick/steam/SDL_steamcontroller.c
 	$(RUN_CMD_CC)$(LIBTOOL) --tag=CC --mode=compile $(CC) $(CFLAGS) $(EXTRA_CFLAGS) -MMD -MT $@ -c $< -o $@
 
-$(objects)/SDL_syshaptic.lo: /root/SDL2-2.0.9/src/haptic/linux/SDL_syshaptic.c
+$(objects)/SDL_syshaptic.lo: /root/SDL-2.0.9-raspberrypi/src/haptic/linux/SDL_syshaptic.c
 	$(RUN_CMD_CC)$(LIBTOOL) --tag=CC --mode=compile $(CC) $(CFLAGS) $(EXTRA_CFLAGS) -MMD -MT $@ -c $< -o $@
 
-$(objects)/SDL_syspower.lo: /root/SDL2-2.0.9/src/power/linux/SDL_syspower.c
+$(objects)/SDL_syspower.lo: /root/SDL-2.0.9-raspberrypi/src/power/linux/SDL_syspower.c
 	$(RUN_CMD_CC)$(LIBTOOL) --tag=CC --mode=compile $(CC) $(CFLAGS) $(EXTRA_CFLAGS) -MMD -MT $@ -c $< -o $@
 
-$(objects)/SDL_sysfilesystem.lo: /root/SDL2-2.0.9/src/filesystem/unix/SDL_sysfilesystem.c
+$(objects)/SDL_sysfilesystem.lo: /root/SDL-2.0.9-raspberrypi/src/filesystem/unix/SDL_sysfilesystem.c
 	$(RUN_CMD_CC)$(LIBTOOL) --tag=CC --mode=compile $(CC) $(CFLAGS) $(EXTRA_CFLAGS) -MMD -MT $@ -c $< -o $@
 
-$(objects)/SDL_systimer.lo: /root/SDL2-2.0.9/src/timer/unix/SDL_systimer.c
+$(objects)/SDL_systimer.lo: /root/SDL-2.0.9-raspberrypi/src/timer/unix/SDL_systimer.c
 	$(RUN_CMD_CC)$(LIBTOOL) --tag=CC --mode=compile $(CC) $(CFLAGS) $(EXTRA_CFLAGS) -MMD -MT $@ -c $< -o $@
 
-$(objects)/SDL_udev.lo: /root/SDL2-2.0.9/src/core/linux/SDL_udev.c
+$(objects)/SDL_udev.lo: /root/SDL-2.0.9-raspberrypi/src/core/linux/SDL_udev.c
 	$(RUN_CMD_CC)$(LIBTOOL) --tag=CC --mode=compile $(CC) $(CFLAGS) $(EXTRA_CFLAGS) -MMD -MT $@ -c $< -o $@
 
-$(objects)/SDL_evdev.lo: /root/SDL2-2.0.9/src/core/linux/SDL_evdev.c
+$(objects)/SDL_evdev.lo: /root/SDL-2.0.9-raspberrypi/src/core/linux/SDL_evdev.c
 	$(RUN_CMD_CC)$(LIBTOOL) --tag=CC --mode=compile $(CC) $(CFLAGS) $(EXTRA_CFLAGS) -MMD -MT $@ -c $< -o $@
 
-$(objects)/SDL_evdev_kbd.lo: /root/SDL2-2.0.9/src/core/linux/SDL_evdev_kbd.c
+$(objects)/SDL_evdev_kbd.lo: /root/SDL-2.0.9-raspberrypi/src/core/linux/SDL_evdev_kbd.c
 	$(RUN_CMD_CC)$(LIBTOOL) --tag=CC --mode=compile $(CC) $(CFLAGS) $(EXTRA_CFLAGS) -MMD -MT $@ -c $< -o $@
 
-$(objects)/SDL_poll.lo: /root/SDL2-2.0.9/src/core/unix/SDL_poll.c
+$(objects)/SDL_poll.lo: /root/SDL-2.0.9-raspberrypi/src/core/unix/SDL_poll.c
 	$(RUN_CMD_CC)$(LIBTOOL) --tag=CC --mode=compile $(CC) $(CFLAGS) $(EXTRA_CFLAGS) -MMD -MT $@ -c $< -o $@
 
-$(objects)/SDL_dummysensor.lo: /root/SDL2-2.0.9/src/sensor/dummy/SDL_dummysensor.c
+$(objects)/SDL_dummysensor.lo: /root/SDL-2.0.9-raspberrypi/src/sensor/dummy/SDL_dummysensor.c
 	$(RUN_CMD_CC)$(LIBTOOL) --tag=CC --mode=compile $(CC) $(CFLAGS) $(EXTRA_CFLAGS) -MMD -MT $@ -c $< -o $@
 
 
-$(objects)/SDL_dummy_main.lo: /root/SDL2-2.0.9/src/main/dummy/SDL_dummy_main.c
+$(objects)/SDL_dummy_main.lo: /root/SDL-2.0.9-raspberrypi/src/main/dummy/SDL_dummy_main.c
 	$(RUN_CMD_CC)$(LIBTOOL) --tag=CC --mode=compile $(CC) $(CFLAGS) $(EXTRA_CFLAGS) -MMD -MT $@ -c $< -o $@
 
-$(objects)/SDL_test_assert.lo: /root/SDL2-2.0.9/src/test/SDL_test_assert.c
+$(objects)/SDL_test_assert.lo: /root/SDL-2.0.9-raspberrypi/src/test/SDL_test_assert.c
 	$(RUN_CMD_CC)$(LIBTOOL) --tag=CC --mode=compile $(CC) $(CFLAGS) $(EXTRA_CFLAGS) -MMD -MT $@ -c $< -o $@ 
-$(objects)/SDL_test_common.lo: /root/SDL2-2.0.9/src/test/SDL_test_common.c
+$(objects)/SDL_test_common.lo: /root/SDL-2.0.9-raspberrypi/src/test/SDL_test_common.c
 	$(RUN_CMD_CC)$(LIBTOOL) --tag=CC --mode=compile $(CC) $(CFLAGS) $(EXTRA_CFLAGS) -MMD -MT $@ -c $< -o $@ 
-$(objects)/SDL_test_compare.lo: /root/SDL2-2.0.9/src/test/SDL_test_compare.c
+$(objects)/SDL_test_compare.lo: /root/SDL-2.0.9-raspberrypi/src/test/SDL_test_compare.c
 	$(RUN_CMD_CC)$(LIBTOOL) --tag=CC --mode=compile $(CC) $(CFLAGS) $(EXTRA_CFLAGS) -MMD -MT $@ -c $< -o $@ 
-$(objects)/SDL_test_crc32.lo: /root/SDL2-2.0.9/src/test/SDL_test_crc32.c
+$(objects)/SDL_test_crc32.lo: /root/SDL-2.0.9-raspberrypi/src/test/SDL_test_crc32.c
 	$(RUN_CMD_CC)$(LIBTOOL) --tag=CC --mode=compile $(CC) $(CFLAGS) $(EXTRA_CFLAGS) -MMD -MT $@ -c $< -o $@ 
-$(objects)/SDL_test_font.lo: /root/SDL2-2.0.9/src/test/SDL_test_font.c
+$(objects)/SDL_test_font.lo: /root/SDL-2.0.9-raspberrypi/src/test/SDL_test_font.c
 	$(RUN_CMD_CC)$(LIBTOOL) --tag=CC --mode=compile $(CC) $(CFLAGS) $(EXTRA_CFLAGS) -MMD -MT $@ -c $< -o $@ 
-$(objects)/SDL_test_fuzzer.lo: /root/SDL2-2.0.9/src/test/SDL_test_fuzzer.c
+$(objects)/SDL_test_fuzzer.lo: /root/SDL-2.0.9-raspberrypi/src/test/SDL_test_fuzzer.c
 	$(RUN_CMD_CC)$(LIBTOOL) --tag=CC --mode=compile $(CC) $(CFLAGS) $(EXTRA_CFLAGS) -MMD -MT $@ -c $< -o $@ 
-$(objects)/SDL_test_harness.lo: /root/SDL2-2.0.9/src/test/SDL_test_harness.c
+$(objects)/SDL_test_harness.lo: /root/SDL-2.0.9-raspberrypi/src/test/SDL_test_harness.c
 	$(RUN_CMD_CC)$(LIBTOOL) --tag=CC --mode=compile $(CC) $(CFLAGS) $(EXTRA_CFLAGS) -MMD -MT $@ -c $< -o $@ 
-$(objects)/SDL_test_imageBlit.lo: /root/SDL2-2.0.9/src/test/SDL_test_imageBlit.c
+$(objects)/SDL_test_imageBlit.lo: /root/SDL-2.0.9-raspberrypi/src/test/SDL_test_imageBlit.c
 	$(RUN_CMD_CC)$(LIBTOOL) --tag=CC --mode=compile $(CC) $(CFLAGS) $(EXTRA_CFLAGS) -MMD -MT $@ -c $< -o $@ 
-$(objects)/SDL_test_imageBlitBlend.lo: /root/SDL2-2.0.9/src/test/SDL_test_imageBlitBlend.c
+$(objects)/SDL_test_imageBlitBlend.lo: /root/SDL-2.0.9-raspberrypi/src/test/SDL_test_imageBlitBlend.c
 	$(RUN_CMD_CC)$(LIBTOOL) --tag=CC --mode=compile $(CC) $(CFLAGS) $(EXTRA_CFLAGS) -MMD -MT $@ -c $< -o $@ 
-$(objects)/SDL_test_imageFace.lo: /root/SDL2-2.0.9/src/test/SDL_test_imageFace.c
+$(objects)/SDL_test_imageFace.lo: /root/SDL-2.0.9-raspberrypi/src/test/SDL_test_imageFace.c
 	$(RUN_CMD_CC)$(LIBTOOL) --tag=CC --mode=compile $(CC) $(CFLAGS) $(EXTRA_CFLAGS) -MMD -MT $@ -c $< -o $@ 
-$(objects)/SDL_test_imagePrimitives.lo: /root/SDL2-2.0.9/src/test/SDL_test_imagePrimitives.c
+$(objects)/SDL_test_imagePrimitives.lo: /root/SDL-2.0.9-raspberrypi/src/test/SDL_test_imagePrimitives.c
 	$(RUN_CMD_CC)$(LIBTOOL) --tag=CC --mode=compile $(CC) $(CFLAGS) $(EXTRA_CFLAGS) -MMD -MT $@ -c $< -o $@ 
-$(objects)/SDL_test_imagePrimitivesBlend.lo: /root/SDL2-2.0.9/src/test/SDL_test_imagePrimitivesBlend.c
+$(objects)/SDL_test_imagePrimitivesBlend.lo: /root/SDL-2.0.9-raspberrypi/src/test/SDL_test_imagePrimitivesBlend.c
 	$(RUN_CMD_CC)$(LIBTOOL) --tag=CC --mode=compile $(CC) $(CFLAGS) $(EXTRA_CFLAGS) -MMD -MT $@ -c $< -o $@ 
-$(objects)/SDL_test_log.lo: /root/SDL2-2.0.9/src/test/SDL_test_log.c
+$(objects)/SDL_test_log.lo: /root/SDL-2.0.9-raspberrypi/src/test/SDL_test_log.c
 	$(RUN_CMD_CC)$(LIBTOOL) --tag=CC --mode=compile $(CC) $(CFLAGS) $(EXTRA_CFLAGS) -MMD -MT $@ -c $< -o $@ 
-$(objects)/SDL_test_md5.lo: /root/SDL2-2.0.9/src/test/SDL_test_md5.c
+$(objects)/SDL_test_md5.lo: /root/SDL-2.0.9-raspberrypi/src/test/SDL_test_md5.c
 	$(RUN_CMD_CC)$(LIBTOOL) --tag=CC --mode=compile $(CC) $(CFLAGS) $(EXTRA_CFLAGS) -MMD -MT $@ -c $< -o $@ 
-$(objects)/SDL_test_memory.lo: /root/SDL2-2.0.9/src/test/SDL_test_memory.c
+$(objects)/SDL_test_memory.lo: /root/SDL-2.0.9-raspberrypi/src/test/SDL_test_memory.c
 	$(RUN_CMD_CC)$(LIBTOOL) --tag=CC --mode=compile $(CC) $(CFLAGS) $(EXTRA_CFLAGS) -MMD -MT $@ -c $< -o $@ 
-$(objects)/SDL_test_random.lo: /root/SDL2-2.0.9/src/test/SDL_test_random.c
+$(objects)/SDL_test_random.lo: /root/SDL-2.0.9-raspberrypi/src/test/SDL_test_random.c
 	$(RUN_CMD_CC)$(LIBTOOL) --tag=CC --mode=compile $(CC) $(CFLAGS) $(EXTRA_CFLAGS) -MMD -MT $@ -c $< -o $@
 

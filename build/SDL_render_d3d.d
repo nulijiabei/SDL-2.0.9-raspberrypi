@@ -1,8 +1,8 @@
 build/SDL_render_d3d.lo: \
- /root/SDL2-2.0.9/src/render/direct3d/SDL_render_d3d.c \
- /root/SDL2-2.0.9/src/render/direct3d/../../SDL_internal.h \
- /root/SDL2-2.0.9/src/render/direct3d/../../dynapi/SDL_dynapi.h \
- /root/SDL2-2.0.9/src/render/direct3d/../../dynapi/SDL_dynapi_overrides.h \
+ /root/SDL-2.0.9-raspberrypi/src/render/direct3d/SDL_render_d3d.c \
+ /root/SDL-2.0.9-raspberrypi/src/render/direct3d/../../SDL_internal.h \
+ /root/SDL-2.0.9-raspberrypi/src/render/direct3d/../../dynapi/SDL_dynapi.h \
+ /root/SDL-2.0.9-raspberrypi/src/render/direct3d/../../dynapi/SDL_dynapi_overrides.h \
  include/SDL_config.h include/SDL_platform.h include/begin_code.h \
  include/close_code.h include/SDL_render.h include/SDL_stdinc.h \
  include/SDL_config.h include/SDL_rect.h include/SDL_error.h \

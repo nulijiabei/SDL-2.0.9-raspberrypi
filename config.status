@@ -437,8 +437,8 @@ Copyright (C) 2012 Free Software Foundation, Inc.
 This config.status script is free software; the Free Software Foundation
 gives unlimited permission to copy, distribute and modify it."
 
-ac_pwd='/root/SDL2-2.0.9'
-srcdir='/root/SDL2-2.0.9'
+ac_pwd='/root/SDL-2.0.9-raspberrypi'
+srcdir='/root/SDL-2.0.9-raspberrypi'
 INSTALL='/usr/bin/install -c'
 AWK='mawk'
 test -n "$AWK" || AWK=awk
@@ -598,7 +598,7 @@ old_postuninstall_cmds=''
 old_archive_cmds='$AR $AR_FLAGS $oldlib$oldobjs~$RANLIB $tool_oldlib'
 lock_old_archive_extraction='no'
 CC='gcc'
-CFLAGS='-g -O2 -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos  -I/opt/vc/include -I/opt/vc/include/interface/vcos/pthreads -I/opt/vc/include/interface/vmcs_host/linux'
+CFLAGS='-g -O2 -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos  -I/opt/vc/include -I/opt/vc/include/interface/vcos/pthreads -I/opt/vc/include/interface/vmcs_host/linux'
 compiler='g++'
 GCC='yes'
 lt_cv_sys_global_symbol_pipe='sed -n -e '\''s/^.*[	 ]\([ABCDGIRSTW][ABCDGIRSTW]*\)[	 ][	 ]*\([_A-Za-z][_A-Za-z0-9]*\)$/\1 \2 \2/p'\'' | sed '\''/ __gnu_lto/d'\'''
@@ -674,7 +674,7 @@ finish_cmds='PATH="\$PATH:/sbin" ldconfig -n $libdir'
 finish_eval=''
 hardcode_into_libs='yes'
 sys_lib_search_path_spec='/usr/lib/gcc/arm-linux-gnueabihf/6 /usr/lib/arm-linux-gnueabihf /usr/lib /lib/arm-linux-gnueabihf /lib '
-sys_lib_dlsearch_path_spec='/lib /usr/lib /usr/local/qt5pi/lib /opt/vc/lib /lib/arm-linux-gnueabihf /usr/lib/arm-linux-gnueabihf /usr/lib/arm-linux-gnueabihf/libfakeroot /usr/local/lib '
+sys_lib_dlsearch_path_spec='/lib /usr/lib /usr/local/lib /usr/local/qt5pi/lib /opt/vc/lib /lib/arm-linux-gnueabihf /usr/lib/arm-linux-gnueabihf /usr/lib/arm-linux-gnueabihf/libfakeroot /usr/local/lib '
 hardcode_action='immediate'
 enable_dlopen='unknown'
 enable_dlopen_self='unknown'
@@ -878,10 +878,10 @@ S["LTLIBOBJS"]=""
 S["WAYLAND_SCANNER"]=""
 S["EXTRA_LDFLAGS"]=" -Wl,--no-undefined -lm -ldl -lsndio -Wl,-rpath,/opt/vc/lib -L/opt/vc/lib -lbcm_host -lts -lpthread -lrt"
 S["BUILD_LDFLAGS"]=""
-S["EXTRA_CFLAGS"]="-Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos  -Wall -fvisibility=hidden -Wdeclaration-after-statement -Werror="\
-"declaration-after-statement    -I/opt/vc/include -I/opt/vc/include/interface/vcos/pthreads -I/opt/vc/include/interface/vmcs_host/linux -I/usr/includ"\
-"e/dbus-1.0 -I/usr/lib/arm-linux-gnueabihf/dbus-1.0/include -pthread -I/usr/include/ibus-1.0 -I/usr/include/glib-2.0 -I/usr/lib/arm-linux-gnueabihf/g"\
-"lib-2.0/include -D_REENTRANT -DHAVE_LINUX_VERSION_H"
+S["EXTRA_CFLAGS"]="-Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos  -Wall -fvisibility=hidden -Wdeclaration-af"\
+"ter-statement -Werror=declaration-after-statement    -I/opt/vc/include -I/opt/vc/include/interface/vcos/pthreads -I/opt/vc/include/interface/vmcs_ho"\
+"st/linux -I/usr/include/dbus-1.0 -I/usr/lib/arm-linux-gnueabihf/dbus-1.0/include -pthread -I/usr/include/ibus-1.0 -I/usr/include/glib-2.0 -I/usr/lib"\
+"/arm-linux-gnueabihf/glib-2.0/include -D_REENTRANT -DHAVE_LINUX_VERSION_H"
 S["BUILD_CFLAGS"]="-g -O3 -DUSING_GENERATED_CONFIG_H"
 S["SDLTEST_OBJECTS"]="$(objects)/SDL_test_assert.lo $(objects)/SDL_test_common.lo $(objects)/SDL_test_compare.lo $(objects)/SDL_test_crc32.lo $(objects)/SDL_test_font.lo "\
 "$(objects)/SDL_test_fuzzer.lo $(objects)/SDL_test_harness.lo $(objects)/SDL_test_imageBlit.lo $(objects)/SDL_test_imageBlitBlend.lo $(objects)/SDL_t"\
@@ -915,7 +915,7 @@ S["OBJECTS"]="$(objects)/SDL.lo $(objects)/SDL_assert.lo $(objects)/SDL_dataqueu
 " $(objects)/SDL_sysmutex.lo $(objects)/SDL_syscond.lo $(objects)/SDL_systls.lo $(objects)/SDL_sysjoystick.lo $(objects)/SDL_steamcontroller.lo $(obj"\
 "ects)/SDL_syshaptic.lo $(objects)/SDL_syspower.lo $(objects)/SDL_sysfilesystem.lo $(objects)/SDL_systimer.lo $(objects)/SDL_udev.lo $(objects)/SDL_e"\
 "vdev.lo $(objects)/SDL_evdev_kbd.lo $(objects)/SDL_poll.lo $(objects)/SDL_dummysensor.lo"
-S["INCLUDE"]="-Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos"
+S["INCLUDE"]="-Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos"
 S["ac_aux_dir"]="build-scripts"
 S["ENABLE_STATIC_FALSE"]="#"
 S["ENABLE_STATIC_TRUE"]=""
@@ -978,10 +978,10 @@ S["SED"]="/bin/sed"
 S["OBJEXT"]="o"
 S["EXEEXT"]=""
 S["ac_ct_CC"]="gcc"
-S["CPPFLAGS"]=" -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos "
+S["CPPFLAGS"]=" -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos "
 S["LDFLAGS"]=""
-S["CFLAGS"]="-g -O2 -Iinclude -I/root/SDL2-2.0.9/include -idirafter /root/SDL2-2.0.9/src/video/khronos  -I/opt/vc/include -I/opt/vc/include/interface/vcos/pthrea"\
-"ds -I/opt/vc/include/interface/vmcs_host/linux"
+S["CFLAGS"]="-g -O2 -Iinclude -I/root/SDL-2.0.9-raspberrypi/include -idirafter /root/SDL-2.0.9-raspberrypi/src/video/khronos  -I/opt/vc/include -I/opt/vc/include"\
+"/interface/vcos/pthreads -I/opt/vc/include/interface/vmcs_host/linux"
 S["CC"]="gcc"
 S["host_os"]="linux-gnueabihf"
 S["host_vendor"]="unknown"

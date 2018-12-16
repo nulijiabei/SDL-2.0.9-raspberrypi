@@ -1,34 +1,34 @@
 build/SDL_rpivideo.lo: \
- /root/SDL2-2.0.9/src/video/raspberry/SDL_rpivideo.c \
- /root/SDL2-2.0.9/src/video/raspberry/../../SDL_internal.h \
- /root/SDL2-2.0.9/src/video/raspberry/../../dynapi/SDL_dynapi.h \
- /root/SDL2-2.0.9/src/video/raspberry/../../dynapi/SDL_dynapi_overrides.h \
+ /root/SDL-2.0.9-raspberrypi/src/video/raspberry/SDL_rpivideo.c \
+ /root/SDL-2.0.9-raspberrypi/src/video/raspberry/../../SDL_internal.h \
+ /root/SDL-2.0.9-raspberrypi/src/video/raspberry/../../dynapi/SDL_dynapi.h \
+ /root/SDL-2.0.9-raspberrypi/src/video/raspberry/../../dynapi/SDL_dynapi_overrides.h \
  include/SDL_config.h include/SDL_platform.h include/begin_code.h \
  include/close_code.h \
- /root/SDL2-2.0.9/src/video/raspberry/../SDL_sysvideo.h \
- /root/SDL2-2.0.9/src/video/raspberry/../../SDL_internal.h \
+ /root/SDL-2.0.9-raspberrypi/src/video/raspberry/../SDL_sysvideo.h \
+ /root/SDL-2.0.9-raspberrypi/src/video/raspberry/../../SDL_internal.h \
  include/SDL_messagebox.h include/SDL_stdinc.h include/SDL_config.h \
  include/SDL_video.h include/SDL_pixels.h include/SDL_endian.h \
  include/SDL_rect.h include/SDL_error.h include/SDL_rwops.h \
  include/SDL_surface.h include/SDL_blendmode.h include/SDL_shape.h \
  include/SDL_thread.h include/SDL_atomic.h include/SDL_mutex.h \
- /root/SDL2-2.0.9/src/video/raspberry/../SDL_vulkan_internal.h \
+ /root/SDL-2.0.9-raspberrypi/src/video/raspberry/../SDL_vulkan_internal.h \
  include/SDL_stdinc.h \
- /root/SDL2-2.0.9/src/video/raspberry/.././khronos/vulkan/vulkan.h \
- /root/SDL2-2.0.9/src/video/raspberry/.././khronos/vulkan/./vk_platform.h \
+ /root/SDL-2.0.9-raspberrypi/src/video/raspberry/.././khronos/vulkan/vulkan.h \
+ /root/SDL-2.0.9-raspberrypi/src/video/raspberry/.././khronos/vulkan/./vk_platform.h \
  include/SDL_vulkan.h include/SDL_version.h include/SDL_syswm.h \
  include/SDL_version.h include/SDL_loadso.h include/SDL_events.h \
  include/SDL_keyboard.h include/SDL_keycode.h include/SDL_scancode.h \
  include/SDL_mouse.h include/SDL_joystick.h include/SDL_gamecontroller.h \
  include/SDL_quit.h include/SDL_gesture.h include/SDL_touch.h \
- /root/SDL2-2.0.9/src/video/raspberry/../../events/SDL_mouse_c.h \
- /root/SDL2-2.0.9/src/video/raspberry/../../events/../SDL_internal.h \
+ /root/SDL-2.0.9-raspberrypi/src/video/raspberry/../../events/SDL_mouse_c.h \
+ /root/SDL-2.0.9-raspberrypi/src/video/raspberry/../../events/../SDL_internal.h \
  include/SDL_mouse.h \
- /root/SDL2-2.0.9/src/video/raspberry/../../events/SDL_keyboard_c.h \
+ /root/SDL-2.0.9-raspberrypi/src/video/raspberry/../../events/SDL_keyboard_c.h \
  include/SDL_keycode.h include/SDL_hints.h \
- /root/SDL2-2.0.9/src/video/raspberry/../../core/linux/SDL_evdev.h \
- /root/SDL2-2.0.9/src/video/raspberry/../../core/linux/../../SDL_internal.h \
- /root/SDL2-2.0.9/src/video/raspberry/SDL_rpivideo.h \
+ /root/SDL-2.0.9-raspberrypi/src/video/raspberry/../../core/linux/SDL_evdev.h \
+ /root/SDL-2.0.9-raspberrypi/src/video/raspberry/../../core/linux/../../SDL_internal.h \
+ /root/SDL-2.0.9-raspberrypi/src/video/raspberry/SDL_rpivideo.h \
  /opt/vc/include/bcm_host.h \
  /opt/vc/include/interface/vmcs_host/vc_dispmanx.h \
  /opt/vc/include/interface/vcos/vcos.h \
@@ -100,8 +100,9 @@ build/SDL_rpivideo.lo: \
  /opt/vc/include/EGL/../KHR/khrplatform.h \
  /opt/vc/include/interface/vmcs_host/vc_dispmanx.h \
  /opt/vc/include/EGL/eglext.h /opt/vc/include/EGL/eglext_brcm.h \
- /root/SDL2-2.0.9/src/video/raspberry/SDL_rpievents_c.h \
- /root/SDL2-2.0.9/src/video/raspberry/SDL_rpiopengles.h \
- /root/SDL2-2.0.9/src/video/raspberry/../SDL_egl_c.h include/SDL_egl.h \
- /root/SDL2-2.0.9/src/video/raspberry/../SDL_sysvideo.h \
- /root/SDL2-2.0.9/src/video/raspberry/SDL_rpimouse.h
+ /root/SDL-2.0.9-raspberrypi/src/video/raspberry/SDL_rpievents_c.h \
+ /root/SDL-2.0.9-raspberrypi/src/video/raspberry/SDL_rpiopengles.h \
+ /root/SDL-2.0.9-raspberrypi/src/video/raspberry/../SDL_egl_c.h \
+ include/SDL_egl.h \
+ /root/SDL-2.0.9-raspberrypi/src/video/raspberry/../SDL_sysvideo.h \
+ /root/SDL-2.0.9-raspberrypi/src/video/raspberry/SDL_rpimouse.h

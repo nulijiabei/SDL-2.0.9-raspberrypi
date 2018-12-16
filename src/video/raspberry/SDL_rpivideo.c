@@ -250,8 +250,8 @@ RPI_CreateWindow(_THIS, SDL_Window * window)
     VC_RECT_T src_rect;
     VC_DISPMANX_ALPHA_T         dispman_alpha;
     DISPMANX_UPDATE_HANDLE_T dispman_update;
-    // uint32_t layer = SDL_RPI_VIDEOLAYER;
-    uint32_t layer = 0;
+    uint32_t layer = SDL_RPI_VIDEOLAYER;
+    // uint32_t layer = 0;
     const char *env;
 
     /* Disable alpha, otherwise the app looks composed with whatever dispman is showing (X11, console,etc) */
@@ -391,10 +391,20 @@ RPI_SetWindowSize(_THIS, SDL_Window * window)
 void
 RPI_ShowWindow(_THIS, SDL_Window * window)
 {
+	// uint32_t layer = SDL_RPI_VIDEOLAYER;
+	DISPMANX_UPDATE_HANDLE_T dispman_update = vc_dispmanx_update_start( 0 );
+	SDL_WindowData *wdata = window->driverdata;
+	vc_dispmanx_element_change_layer(dispman_update, wdata->dispman_window.element, SDL_RPI_VIDEOLAYER);
+	vc_dispmanx_update_submit_sync(dispman_update);
 }
 void
 RPI_HideWindow(_THIS, SDL_Window * window)
 {
+	// uint32_t layer = 0;
+	DISPMANX_UPDATE_HANDLE_T dispman_update = vc_dispmanx_update_start( 0 );
+	SDL_WindowData *wdata = window->driverdata;
+	vc_dispmanx_element_change_layer(dispman_update, wdata->dispman_window.element, 0);
+	vc_dispmanx_update_submit_sync(dispman_update);
 }
 void
 RPI_RaiseWindow(_THIS, SDL_Window * window)

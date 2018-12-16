@@ -1,7 +1,7 @@
-build/SDL.lo: /root/SDL2-2.0.9/src/SDL.c \
- /root/SDL2-2.0.9/src/./SDL_internal.h \
- /root/SDL2-2.0.9/src/./dynapi/SDL_dynapi.h \
- /root/SDL2-2.0.9/src/./dynapi/SDL_dynapi_overrides.h \
+build/SDL.lo: /root/SDL-2.0.9-raspberrypi/src/SDL.c \
+ /root/SDL-2.0.9-raspberrypi/src/./SDL_internal.h \
+ /root/SDL-2.0.9-raspberrypi/src/./dynapi/SDL_dynapi.h \
+ /root/SDL-2.0.9-raspberrypi/src/./dynapi/SDL_dynapi_overrides.h \
  include/SDL_config.h include/SDL_platform.h include/begin_code.h \
  include/close_code.h include/SDL.h include/SDL_main.h \
  include/SDL_stdinc.h include/SDL_config.h include/SDL_assert.h \
@@ -18,28 +18,33 @@ build/SDL.lo: /root/SDL2-2.0.9/src/SDL.c \
  include/SDL_power.h include/SDL_render.h include/SDL_sensor.h \
  include/SDL_shape.h include/SDL_system.h include/SDL_timer.h \
  include/SDL_version.h include/SDL_bits.h include/SDL_revision.h \
- /root/SDL2-2.0.9/src/SDL_assert_c.h \
- /root/SDL2-2.0.9/src/events/SDL_events_c.h \
- /root/SDL2-2.0.9/src/events/../SDL_internal.h include/SDL_events.h \
- include/SDL_thread.h /root/SDL2-2.0.9/src/events/../video/SDL_sysvideo.h \
- /root/SDL2-2.0.9/src/events/../video/../SDL_internal.h \
+ /root/SDL-2.0.9-raspberrypi/src/SDL_assert_c.h \
+ /root/SDL-2.0.9-raspberrypi/src/events/SDL_events_c.h \
+ /root/SDL-2.0.9-raspberrypi/src/events/../SDL_internal.h \
+ include/SDL_events.h include/SDL_thread.h \
+ /root/SDL-2.0.9-raspberrypi/src/events/../video/SDL_sysvideo.h \
+ /root/SDL-2.0.9-raspberrypi/src/events/../video/../SDL_internal.h \
  include/SDL_messagebox.h include/SDL_shape.h \
- /root/SDL2-2.0.9/src/events/../video/SDL_vulkan_internal.h \
+ /root/SDL-2.0.9-raspberrypi/src/events/../video/SDL_vulkan_internal.h \
  include/SDL_stdinc.h \
- /root/SDL2-2.0.9/src/events/../video/./khronos/vulkan/vulkan.h \
- /root/SDL2-2.0.9/src/events/../video/./khronos/vulkan/./vk_platform.h \
- include/SDL_vulkan.h /root/SDL2-2.0.9/src/events/SDL_clipboardevents_c.h \
- /root/SDL2-2.0.9/src/events/SDL_displayevents_c.h \
- /root/SDL2-2.0.9/src/events/SDL_dropevents_c.h \
- /root/SDL2-2.0.9/src/events/SDL_gesture_c.h \
- /root/SDL2-2.0.9/src/events/SDL_keyboard_c.h include/SDL_keycode.h \
- /root/SDL2-2.0.9/src/events/SDL_mouse_c.h include/SDL_mouse.h \
- /root/SDL2-2.0.9/src/events/SDL_touch_c.h \
- /root/SDL2-2.0.9/src/events/../../include/SDL_touch.h \
- /root/SDL2-2.0.9/src/events/SDL_windowevents_c.h \
- /root/SDL2-2.0.9/src/haptic/SDL_haptic_c.h \
- /root/SDL2-2.0.9/src/joystick/SDL_joystick_c.h \
- /root/SDL2-2.0.9/src/joystick/../SDL_internal.h include/SDL_joystick.h \
- /root/SDL2-2.0.9/src/sensor/SDL_sensor_c.h include/SDL_sensor.h \
- /root/SDL2-2.0.9/src/timer/SDL_timer_c.h \
- /root/SDL2-2.0.9/src/timer/../SDL_internal.h include/SDL_timer.h
+ /root/SDL-2.0.9-raspberrypi/src/events/../video/./khronos/vulkan/vulkan.h \
+ /root/SDL-2.0.9-raspberrypi/src/events/../video/./khronos/vulkan/./vk_platform.h \
+ include/SDL_vulkan.h \
+ /root/SDL-2.0.9-raspberrypi/src/events/SDL_clipboardevents_c.h \
+ /root/SDL-2.0.9-raspberrypi/src/events/SDL_displayevents_c.h \
+ /root/SDL-2.0.9-raspberrypi/src/events/SDL_dropevents_c.h \
+ /root/SDL-2.0.9-raspberrypi/src/events/SDL_gesture_c.h \
+ /root/SDL-2.0.9-raspberrypi/src/events/SDL_keyboard_c.h \
+ include/SDL_keycode.h \
+ /root/SDL-2.0.9-raspberrypi/src/events/SDL_mouse_c.h include/SDL_mouse.h \
+ /root/SDL-2.0.9-raspberrypi/src/events/SDL_touch_c.h \
+ /root/SDL-2.0.9-raspberrypi/src/events/../../include/SDL_touch.h \
+ /root/SDL-2.0.9-raspberrypi/src/events/SDL_windowevents_c.h \
+ /root/SDL-2.0.9-raspberrypi/src/haptic/SDL_haptic_c.h \
+ /root/SDL-2.0.9-raspberrypi/src/joystick/SDL_joystick_c.h \
+ /root/SDL-2.0.9-raspberrypi/src/joystick/../SDL_internal.h \
+ include/SDL_joystick.h \
+ /root/SDL-2.0.9-raspberrypi/src/sensor/SDL_sensor_c.h \
+ include/SDL_sensor.h /root/SDL-2.0.9-raspberrypi/src/timer/SDL_timer_c.h \
+ /root/SDL-2.0.9-raspberrypi/src/timer/../SDL_internal.h \
+ include/SDL_timer.h

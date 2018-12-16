@@ -1,19 +1,21 @@
-build/SDL_egl.lo: /root/SDL2-2.0.9/src/video/SDL_egl.c \
- /root/SDL2-2.0.9/src/video/../SDL_internal.h \
- /root/SDL2-2.0.9/src/video/../dynapi/SDL_dynapi.h \
- /root/SDL2-2.0.9/src/video/../dynapi/SDL_dynapi_overrides.h \
+build/SDL_egl.lo: /root/SDL-2.0.9-raspberrypi/src/video/SDL_egl.c \
+ /root/SDL-2.0.9-raspberrypi/src/video/../SDL_internal.h \
+ /root/SDL-2.0.9-raspberrypi/src/video/../dynapi/SDL_dynapi.h \
+ /root/SDL-2.0.9-raspberrypi/src/video/../dynapi/SDL_dynapi_overrides.h \
  include/SDL_config.h include/SDL_platform.h include/begin_code.h \
- include/close_code.h /root/SDL2-2.0.9/src/video/SDL_sysvideo.h \
+ include/close_code.h \
+ /root/SDL-2.0.9-raspberrypi/src/video/SDL_sysvideo.h \
  include/SDL_messagebox.h include/SDL_stdinc.h include/SDL_config.h \
  include/SDL_video.h include/SDL_pixels.h include/SDL_endian.h \
  include/SDL_rect.h include/SDL_error.h include/SDL_rwops.h \
  include/SDL_surface.h include/SDL_blendmode.h include/SDL_shape.h \
  include/SDL_thread.h include/SDL_atomic.h include/SDL_mutex.h \
- /root/SDL2-2.0.9/src/video/SDL_vulkan_internal.h include/SDL_stdinc.h \
- /root/SDL2-2.0.9/src/video/./khronos/vulkan/vulkan.h \
- /root/SDL2-2.0.9/src/video/./khronos/vulkan/./vk_platform.h \
+ /root/SDL-2.0.9-raspberrypi/src/video/SDL_vulkan_internal.h \
+ include/SDL_stdinc.h \
+ /root/SDL-2.0.9-raspberrypi/src/video/./khronos/vulkan/vulkan.h \
+ /root/SDL-2.0.9-raspberrypi/src/video/./khronos/vulkan/./vk_platform.h \
  include/SDL_vulkan.h include/SDL_log.h \
- /root/SDL2-2.0.9/src/video/SDL_egl_c.h include/SDL_egl.h \
+ /root/SDL-2.0.9-raspberrypi/src/video/SDL_egl_c.h include/SDL_egl.h \
  /opt/vc/include/EGL/egl.h /opt/vc/include/EGL/eglplatform.h \
  /opt/vc/include/EGL/../KHR/khrplatform.h \
  /opt/vc/include/interface/vmcs_host/vc_dispmanx.h \
